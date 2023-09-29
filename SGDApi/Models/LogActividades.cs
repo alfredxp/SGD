@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace SGDApi.Models
 {
@@ -11,8 +12,9 @@ namespace SGDApi.Models
 
         public string LogActividadAccion { get; set; }
 
-        public int UsuarioId {get;set;} 
+        public int UsuarioId {get;set;}
 
+        [JsonIgnore]
         public virtual Usuarios Usuarios { get; set; }
     }
 }

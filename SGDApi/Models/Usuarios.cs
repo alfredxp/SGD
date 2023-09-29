@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace SGDApi.Models
 {
@@ -13,7 +14,7 @@ namespace SGDApi.Models
         public string UsuarioLogin { get; set; }
         [Column(TypeName = "VARCHAR")]
         [Required]
-        public string Contrasena { get; set; }
+        public string UsuarioContrasena { get; set; }
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
         public string UsuarioNombre { get; set; }
@@ -37,8 +38,8 @@ namespace SGDApi.Models
         public DateTime? UsuarioFechaModificacion { get; set; } 
         public int EstadoId { get; set; }
 
+        [JsonIgnore]
         public virtual Estados Estados { get; set; }
-        public virtual ICollection<LogActividades> LogActividades { get; set; }
 
     }
 }

@@ -14,6 +14,7 @@ namespace SGDApi.Models
         [StringLength(50)]
         public string EstadoCodigo { get; set; }
 
-        public virtual ICollection<Usuarios> Usuarios { get; set; }
+        public ICollection<Usuarios> Usuarios { get; set; }
+
     }
 }
