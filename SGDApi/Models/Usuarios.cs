@@ -38,6 +38,7 @@ namespace SGDApi.Models
         public int EstadoId { get; set; }
 
         public virtual Estados Estados { get; set; }
+        public virtual ICollection<LogActividades> LogActividades { get; set; }
 
     }
 }
