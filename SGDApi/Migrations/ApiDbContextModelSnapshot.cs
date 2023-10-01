@@ -22,25 +22,143 @@ namespace SGDApi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("SGDApi.Models.Area", b =>
+                {
+                    b.Property<int>("AreaId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("AreaId");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AreaId"));
+
+                    b.Property<DateTime?>("FechaOrigen")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("FechaUltimaRevision")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Nombre")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("UsuarioCreador")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UsuarioModificacion")
+                        .HasColumnType("int");
+
+                    b.HasKey("AreaId");
+
+                    b.HasIndex("UsuarioCreador");
+
+                    b.HasIndex("UsuarioModificacion");
+
+                    b.ToTable("Areas");
+                });
+
+            modelBuilder.Entity("SGDApi.Models.Comentario", b =>
+                {
+                    b.Property<int>("ComentarioId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("ComentarioId");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ComentarioId"));
+
+                    b.Property<string>("Contenido")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("FechaOrigen")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("FechaUltimaRevision")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("TaskId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UsuarioCreador")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UsuarioModificacion")
+                        .HasColumnType("int");
+
+                    b.HasKey("ComentarioId");
+
+                    b.HasIndex("TaskId");
+
+                    b.HasIndex("UsuarioCreador");
+
+                    b.HasIndex("UsuarioModificacion");
+
+                    b.ToTable("Comentarios");
+                });
+
+            modelBuilder.Entity("SGDApi.Models.Documento", b =>
+                {
+                    b.Property<int>("DocumentoId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("DocumentoId");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DocumentoId"));
+
+                    b.Property<string>("Nombre")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("UsuarioCreador")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UsuarioModificacion")
+                        .HasColumnType("int");
+
+                    b.HasKey("DocumentoId");
+
+                    b.HasIndex("UsuarioCreador");
+
+                    b.HasIndex("UsuarioModificacion");
+
+                    b.ToTable("Documentos");
+                });
+
             modelBuilder.Entity("SGDApi.Models.Estados", b =>
                 {
                     b.Property<int>("EstadoId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("EstadoId");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EstadoId"));
 
                     b.Property<string>("EstadoCodigo")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("VARCHAR");
 
                     b.Property<string>("EstadoNombre")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("VARCHAR");
 
+                    b.Property<int?>("TaskId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UsuarioCreador")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UsuarioModificacion")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UsuariosCreadorUsuarioId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UsuariosModificacionUsuarioId")
+                        .HasColumnType("int");
+
                     b.HasKey("EstadoId");
+
+                    b.HasIndex("TaskId");
+
+                    b.HasIndex("UsuariosCreadorUsuarioId");
+
+                    b.HasIndex("UsuariosModificacionUsuarioId");
 
                     b.ToTable("Estados");
                 });
@@ -54,46 +172,102 @@ namespace SGDApi.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LogActividadId"));
 
                     b.Property<string>("LogActividadAccion")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("LogActividadFecha")
                         .HasColumnType("datetime2");
 
+                    b.Property<int?>("TaskId")
+                        .HasColumnType("int");
+
                     b.Property<int>("UsuarioId")
                         .HasColumnType("int");
 
-                    b.Property<int>("UsuariosUsuarioId")
+                    b.Property<int?>("UsuariosUsuarioId")
                         .HasColumnType("int");
 
                     b.HasKey("LogActividadId");
+
+                    b.HasIndex("TaskId");
+
+                    b.HasIndex("UsuarioId");
 
                     b.HasIndex("UsuariosUsuarioId");
 
                     b.ToTable("LogActividades");
                 });
 
+            modelBuilder.Entity("SGDApi.Models.Task", b =>
+                {
+                    b.Property<int>("TaskId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("TaskId");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TaskId"));
+
+                    b.Property<int>("AreaId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Descripcion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DocumentoId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("FechaOrigen")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("FechaUltimaRevision")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("TaskName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("UsuarioCreador")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UsuarioModificacion")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UsuariosId")
+                        .HasColumnType("int");
+
+                    b.HasKey("TaskId");
+
+                    b.HasIndex("AreaId");
+
+                    b.HasIndex("DocumentoId");
+
+                    b.HasIndex("UsuarioCreador");
+
+                    b.HasIndex("UsuarioModificacion");
+
+                    b.HasIndex("UsuariosId");
+
+                    b.ToTable("Tasks");
+                });
+
             modelBuilder.Entity("SGDApi.Models.Usuarios", b =>
                 {
                     b.Property<int>("UsuarioId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("UsuarioId");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UsuarioId"));
 
-                    b.Property<int>("EstadoId")
-                        .HasColumnType("int");
+                    b.Property<DateTime?>("FechaOrigen")
+                        .HasColumnType("datetime2");
 
-                    b.Property<int>("EstadosEstadoId")
-                        .HasColumnType("int");
+                    b.Property<DateTime?>("FechaUltimaRevision")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("UsuarioApellido")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("VARCHAR");
 
                     b.Property<string>("UsuarioCedula")
-                        .IsRequired()
                         .HasMaxLength(13)
                         .HasColumnType("VARCHAR");
 
@@ -102,18 +276,10 @@ namespace SGDApi.Migrations
                         .HasColumnType("VARCHAR");
 
                     b.Property<string>("UsuarioCorreo")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("VARCHAR");
 
-                    b.Property<DateTime?>("UsuarioFechaCreacion")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("UsuarioFechaModificacion")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("UsuarioLlaveQR")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UsuarioLogin")
@@ -122,12 +288,10 @@ namespace SGDApi.Migrations
                         .HasColumnType("VARCHAR");
 
                     b.Property<string>("UsuarioNombre")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("VARCHAR");
 
                     b.Property<string>("UsuarioTelefono")
-                        .IsRequired()
                         .HasMaxLength(12)
                         .HasColumnType("VARCHAR");
 
@@ -138,36 +302,154 @@ namespace SGDApi.Migrations
 
                     b.HasKey("UsuarioId");
 
-                    b.HasIndex("EstadosEstadoId");
-
                     b.ToTable("Usuarios");
                 });
 
-            modelBuilder.Entity("SGDApi.Models.LogActividades", b =>
+            modelBuilder.Entity("SGDApi.Models.Area", b =>
                 {
-                    b.HasOne("SGDApi.Models.Usuarios", "Usuarios")
+                    b.HasOne("SGDApi.Models.Usuarios", "UsuariosCreador")
                         .WithMany()
-                        .HasForeignKey("UsuariosUsuarioId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UsuarioCreador");
 
-                    b.Navigation("Usuarios");
+                    b.HasOne("SGDApi.Models.Usuarios", "UsuariosModificacion")
+                        .WithMany()
+                        .HasForeignKey("UsuarioModificacion");
+
+                    b.Navigation("UsuariosCreador");
+
+                    b.Navigation("UsuariosModificacion");
                 });
 
-            modelBuilder.Entity("SGDApi.Models.Usuarios", b =>
+            modelBuilder.Entity("SGDApi.Models.Comentario", b =>
                 {
-                    b.HasOne("SGDApi.Models.Estados", "Estados")
-                        .WithMany("Usuarios")
-                        .HasForeignKey("EstadosEstadoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("SGDApi.Models.Task", "Task")
+                        .WithMany("Comentarios")
+                        .HasForeignKey("TaskId");
 
-                    b.Navigation("Estados");
+                    b.HasOne("SGDApi.Models.Usuarios", "UsuariosCreador")
+                        .WithMany()
+                        .HasForeignKey("UsuarioCreador");
+
+                    b.HasOne("SGDApi.Models.Usuarios", "UsuariosModificacion")
+                        .WithMany()
+                        .HasForeignKey("UsuarioModificacion");
+
+                    b.Navigation("Task");
+
+                    b.Navigation("UsuariosCreador");
+
+                    b.Navigation("UsuariosModificacion");
+                });
+
+            modelBuilder.Entity("SGDApi.Models.Documento", b =>
+                {
+                    b.HasOne("SGDApi.Models.Usuarios", "UsuariosCreador")
+                        .WithMany()
+                        .HasForeignKey("UsuarioCreador");
+
+                    b.HasOne("SGDApi.Models.Usuarios", "UsuariosModificacion")
+                        .WithMany()
+                        .HasForeignKey("UsuarioModificacion");
+
+                    b.Navigation("UsuariosCreador");
+
+                    b.Navigation("UsuariosModificacion");
                 });
 
             modelBuilder.Entity("SGDApi.Models.Estados", b =>
                 {
+                    b.HasOne("SGDApi.Models.Task", "Task")
+                        .WithMany("Estados")
+                        .HasForeignKey("TaskId");
+
+                    b.HasOne("SGDApi.Models.Usuarios", "UsuariosCreador")
+                        .WithMany()
+                        .HasForeignKey("UsuariosCreadorUsuarioId");
+
+                    b.HasOne("SGDApi.Models.Usuarios", "UsuariosModificacion")
+                        .WithMany()
+                        .HasForeignKey("UsuariosModificacionUsuarioId");
+
+                    b.Navigation("Task");
+
+                    b.Navigation("UsuariosCreador");
+
+                    b.Navigation("UsuariosModificacion");
+                });
+
+            modelBuilder.Entity("SGDApi.Models.LogActividades", b =>
+                {
+                    b.HasOne("SGDApi.Models.Task", "Task")
+                        .WithMany("LogActividades")
+                        .HasForeignKey("TaskId");
+
+                    b.HasOne("SGDApi.Models.Usuarios", "Usuarios")
+                        .WithMany()
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_LogActividades_Usuarios_UsuarioId");
+
+                    b.HasOne("SGDApi.Models.Usuarios", null)
+                        .WithMany("LogActividades")
+                        .HasForeignKey("UsuariosUsuarioId");
+
+                    b.Navigation("Task");
+
                     b.Navigation("Usuarios");
+                });
+
+            modelBuilder.Entity("SGDApi.Models.Task", b =>
+                {
+                    b.HasOne("SGDApi.Models.Area", "Area")
+                        .WithMany()
+                        .HasForeignKey("AreaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SGDApi.Models.Documento", "Documento")
+                        .WithMany()
+                        .HasForeignKey("DocumentoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SGDApi.Models.Usuarios", "UsuariosCreador")
+                        .WithMany()
+                        .HasForeignKey("UsuarioCreador");
+
+                    b.HasOne("SGDApi.Models.Usuarios", "UsuariosModificacion")
+                        .WithMany()
+                        .HasForeignKey("UsuarioModificacion");
+
+                    b.HasOne("SGDApi.Models.Usuarios", "Usuarios")
+                        .WithMany()
+                        .HasForeignKey("UsuariosId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Area");
+
+                    b.Navigation("Documento");
+
+                    b.Navigation("Usuarios");
+
+                    b.Navigation("UsuariosCreador");
+
+                    b.Navigation("UsuariosModificacion");
+                });
+
+            modelBuilder.Entity("SGDApi.Models.Task", b =>
+                {
+                    b.Navigation("Comentarios");
+
+                    b.Navigation("Estados");
+
+                    b.Navigation("LogActividades");
+                });
+
+            modelBuilder.Entity("SGDApi.Models.Usuarios", b =>
+                {
+                    b.Navigation("LogActividades");
                 });
 #pragma warning restore 612, 618
         }
