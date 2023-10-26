@@ -30,6 +30,28 @@ namespace SGDApi.Data
         .HasConstraintName("FK_LogActividades_Usuarios_UsuarioId");
             base.OnModelCreating(modelBuilder);
         }
+
+        public DbSet<SGDApi.Models.CampaignDocument>? CampaignDocument { get; set; }
+
+        public DbSet<SGDApi.Models.Candidato>? Candidato { get; set; }
+
+        public DbSet<SGDApi.Models.CalendarioElecciones>? CalendarioElecciones { get; set; }
+
+        public DbSet<SGDApi.Models.ComunicacionesOficiales>? ComunicacionesOficiales { get; set; }
+
+        public DbSet<SGDApi.Models.Elecciones>? Eleciones { get; set; }
+
+        public DbSet<SGDApi.Models.ElectionComittee>? ElectionComittee { get; set; }
+
+        public DbSet<SGDApi.Models.HistorialElectoral>? HistorialElectoral { get; set; }
+
+        public DbSet<SGDApi.Models.PartidoPolitico>? PartidoPolitico { get; set; }
+
+        public DbSet<SGDApi.Models.ResultadoEleccion>? ResultadoEleccion { get; set; }
+
+        public DbSet<SGDApi.Models.Votante>? Votante { get; set; }
+
+        public DbSet<SGDApi.Models.VotingRecord>? VotingRecord { get; set; }
     }
 
 
