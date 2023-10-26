@@ -16,24 +16,6 @@ namespace SGDApi.Data
         public DbSet<Comentario> Comentarios { get; set; }
         public DbSet<Task> Tasks { get; set; }
         public DbSet<Documento> Documentos { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            //string connectionString = @"Server = (localdb)\mssqllocaldb; Database = SGDApi;";
-            string connectionString = @"Server = (localdb)\mssqllocaldb; Database = SGDApi;";
-            optionsBuilder.UseSqlServer(connectionString);
-        }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<LogActividades>()
-        .HasOne(la => la.Usuarios) 
-        .WithMany() 
-        .HasForeignKey(la => la.UsuarioId)
-        .HasConstraintName("FK_LogActividades_Usuarios_UsuarioId");
-            base.OnModelCreating(modelBuilder);
-        }
-
         public DbSet<SGDApi.Models.CampaignDocument>? CampaignDocument { get; set; }
 
         public DbSet<SGDApi.Models.Candidato>? Candidato { get; set; }
@@ -55,6 +37,26 @@ namespace SGDApi.Data
         public DbSet<SGDApi.Models.Votante>? Votante { get; set; }
 
         public DbSet<SGDApi.Models.VotingRecord>? VotingRecord { get; set; }
+
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            //string connectionString = @"Server = (localdb)\mssqllocaldb; Database = SGDApi;";
+            string connectionString = @"Server = (localdb)\mssqllocaldb; Database = SGDApi;";
+            optionsBuilder.UseSqlServer(connectionString);
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<LogActividades>()
+        .HasOne(la => la.Usuarios) 
+        .WithMany() 
+        .HasForeignKey(la => la.UsuarioId)
+        .HasConstraintName("FK_LogActividades_Usuarios_UsuarioId");
+            base.OnModelCreating(modelBuilder);
+        }
+
+        
     }
 
 
