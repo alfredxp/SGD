@@ -13,12 +13,13 @@ namespace SGDApi.Controllers
     [ApiController]
     public class UsuariosController : ControllerBase
     {
-        ApiDbContext _db = new ApiDbContext();
+        private readonly ApiDbContext _db;
         private IConfiguration _config;
 
-        public UsuariosController(IConfiguration config)
+        public UsuariosController(IConfiguration config, ApiDbContext context)
         {
             _config = config;
+            _db = context;
         }
 
         [HttpPost("[action]")]

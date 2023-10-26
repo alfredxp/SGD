@@ -6,6 +6,9 @@ namespace SGDApi.Data
 {
     public class ApiDbContext : DbContext
     {
+        public ApiDbContext(DbContextOptions<ApiDbContext> options):base(options) { }
+        
+
         public DbSet<Usuarios> Usuarios { get; set; }
         public DbSet<Estados> Estados { get; set; }
         public DbSet<LogActividades> LogActividades { get; set; }
