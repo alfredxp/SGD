@@ -8,7 +8,6 @@ namespace SGD.Models
         public SGDContext(DbContextOptions<SGDContext> options) : base(options)
         {
         }
-
         public DbSet<Task> tasks { get; set; }
         public DbSet<Actividades> actividades { get; set; }
         public DbSet<Categorias> categorias { get; set; }
