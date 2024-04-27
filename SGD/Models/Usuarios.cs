@@ -15,6 +15,6 @@ namespace SGD.Models
         public int USR_TWOFACTOR { get; set; }
         public int EST_ID { get; set; }
         public int ROL_ID { get; set; }
-);
+
     }
 }
