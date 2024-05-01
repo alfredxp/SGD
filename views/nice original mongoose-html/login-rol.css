@@ -1,0 +1,324 @@
+.login-rol-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.login-rol-login-rol {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.login-rol-text {
+  top: 361px;
+  left: 843px;
+  color: rgba(9, 56, 117, 1);
+  width: 233px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-rol-rectangle2 {
+  top: 594px;
+  left: 604px;
+  width: 711px;
+  height: 75px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.login-rol-rectangle4 {
+  top: 785px;
+  left: 865px;
+  width: 220px;
+  height: 75px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.login-rol-rectangle3 {
+  top: 486px;
+  left: 604px;
+  width: 711px;
+  height: 75px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.login-rol-text02 {
+  top: 508px;
+  left: 629px;
+  color: rgba(9, 56, 117, 1);
+  width: 273px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-rol-rectangle6 {
+  top: 18px;
+  left: 15px;
+  width: 263px;
+  height: 178px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 64px;
+}
+.login-rol-text04 {
+  top: 616px;
+  left: 629px;
+  color: rgba(9, 56, 117, 1);
+  width: 273px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-rol-text06 {
+  top: 924px;
+  left: 704px;
+  color: rgba(0, 0, 0, 1);
+  width: 574px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-rol-text07 {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+}
+.login-rol-text09 {
+  top: 807px;
+  left: 927px;
+  color: rgba(255, 255, 255, 1);
+  width: 116px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-rol-text11 {
+  top: 702px;
+  left: 809px;
+  color: rgba(9, 56, 117, 1);
+  width: 351px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-rol-image170640173paddedlogo2 {
+  top: 88px;
+  left: 731px;
+  width: 457px;
+  height: 240px;
+  position: absolute;
+  border-radius: 88px;
+}
+.login-rol-text13 {
+  top: 57px;
+  left: 81px;
+  color: rgba(9, 56, 117, 1);
+  width: 127px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-rol-text15 {
+  top: 97px;
+  left: 81px;
+  color: rgba(9, 56, 117, 1);
+  width: 127px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-rol-text17 {
+  top: 135px;
+  left: 81px;
+  color: rgba(9, 56, 117, 1);
+  width: 145px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-rol-cloudaddcloudnetworkinternetaddserverplus {
+  top: 54px;
+  left: 38px;
+  width: 36px;
+  height: 33px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.login-rol-cloudaddcloudnetworkinternetaddserverplus1 {
+  top: 4.450720310211182px;
+  left: 1.3196156024932861px;
+  width: 33.36101150512695px;
+  height: 23.06915855407715px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.login-rol-vector {
+  top: 17.431108474731445px;
+  left: 10.529296875px;
+  width: 12px;
+  height: 1px;
+  position: absolute;
+}
+.login-rol-vector2 {
+  top: 11.792610168457031px;
+  left: 16.68038558959961px;
+  width: 0px;
+  height: 11px;
+  position: absolute;
+}
+.login-rol-vector3 {
+  top: 0px;
+  left: 0px;
+  width: 33px;
+  height: 21px;
+  position: absolute;
+}
+.login-rol-visibleeyeeyeballopenview {
+  top: 93px;
+  left: 38px;
+  width: 34px;
+  height: 32px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.login-rol-visibleeyeeyeballopenview1 {
+  top: 5.714285850524902px;
+  left: 1.2442275285720825px;
+  width: 31.51137351989746px;
+  height: 20.571657180786133px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.login-rol-vector1 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 21px;
+  position: absolute;
+}
+.login-rol-vector21 {
+  top: 5.714285373687744px;
+  left: 10.898629188537598px;
+  width: 10px;
+  height: 9px;
+  position: absolute;
+}
+.login-rol-wrenchcrescenttoolconstructiontoolswrenchsettinged {
+  top: 137px;
+  left: 42px;
+  width: 26px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.login-rol-wrenchcrescenttoolconstructiontoolswrenchsettinged1 {
+  top: 0.862374484539032px;
+  left: 0.9689244031906128px;
+  width: 24.062313079833984px;
+  height: 22.275367736816406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.login-rol-union {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 22px;
+  position: absolute;
+}

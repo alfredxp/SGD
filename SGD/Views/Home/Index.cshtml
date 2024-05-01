@@ -1,8 +1,435 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    Layout = null;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/sweetalert2.all.min.js"></script>
+<script src="~/lib/init.js"></script>
+<script src="~/lib/init1.js"></script>
+<link href="~/lib/sweetalert2.min.css" />
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <meta property="og:title" content="Login" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <style data-tag="reset-style-sheet">
+        html {
+            line-height: 1.15;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+        }
+
+        p, li, ul, pre, div, h1, h2, h3, h4, h5, h6, figure, blockquote, figcaption {
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            background-color: transparent;
+        }
+
+        button, input, optgroup, select, textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+        }
+
+        button, select {
+            text-transform: none;
+        }
+
+        button, [type="button"], [type="reset"], [type="submit"] {
+            -webkit-appearance: button;
+        }
+
+            button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+                border-style: none;
+                padding: 0;
+            }
+
+            button:-moz-focus, [type="button"]:-moz-focus, [type="reset"]:-moz-focus, [type="submit"]:-moz-focus {
+                outline: 1px dotted ButtonText;
+            }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        input {
+            padding: 2px 4px;
+            border: none;
+            background: none;
+            outline:none;
+        }
+
+        img {
+            display: block;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <style data-tag="default-style-sheet">
+        html {
+            font-family: Inter;
+            font-size: 16px;
+        }
+
+        body {
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: normal;
+            line-height: 1.15;
+            color: var(--dl-color-gray-black);
+            background-color: var(--dl-color-gray-white);
+        }
+
+
+
+        .login-container {
+            width: 100%;
+            display: flex;
+            overflow: auto;
+            min-height: 100vh;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .login-login {
+            width: 100%;
+            height: 1080px;
+            display: flex;
+            overflow: hidden;
+            position: relative;
+            align-items: flex-start;
+            flex-shrink: 0;
+            background-color: rgba(255, 255, 255, 1);
+        }
+
+        .login-text {
+            top: 361px;
+            left: 843px;
+            color: rgb(9, 56, 117);
+            width: var(--dl-size-size-xxlarge);
+            height: auto;
+            position: absolute;
+            font-size: 36px;
+            font-style: Semi Bold;
+            text-align: left;
+            font-family: "Inter";
+            font-weight: 700;
+            line-height: 130%;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+
+        .login-rectangle2 {
+            top: 594px;
+            left: 604px;
+            width: 711px;
+            height: 75px;
+            position: absolute;
+            border-color: rgba(9, 56, 117, 1);
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 64px;
+        }
+
+        .login-rectangle4 {
+            top: 785px;
+            left: 865px;
+            width: 220px;
+            height: 75px;
+            position: absolute;
+            border-color: rgba(9, 56, 117, 1);
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 64px;
+        }
+
+        .login-rectangle3 {
+            top: 486px;
+            left: 604px;
+            width: 711px;
+            height: 75px;
+            position: absolute;
+            border-color: rgba(9, 56, 117, 1);
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 64px;
+        }
+
+        .UsuarioCSS {
+            top: 508px;
+            left: 629px;
+            color: rgba(9, 56, 117, 1);
+            width: 273px;
+            height: auto;
+            position: absolute;
+            font-size: 24px;
+            font-style: Semi Bold;
+            text-align: left;
+            font-family: Inter;
+            font-weight: 700;
+            line-height: 129.99999523162842%;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+
+        .PasswordCSS {
+            top: 616px;
+            left: 629px;
+            color: rgba(9, 56, 117, 1);
+            width: 273px;
+            height: auto;
+            position: absolute;
+            font-size: 24px;
+            font-style: Semi Bold;
+            text-align: left;
+            font-family: Inter;
+            font-weight: 700;
+            line-height: 129.99999523162842%;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+
+            .PasswordCSS input,
+            .UsuarioCSS input,
+        .from_Input {
+                color: rgba(9, 56, 117, 1);
+                width: 273px;
+                height: 40px; /* Set a fixed height */
+                position: absolute;
+                font-size: 24px;
+                font-style: Semi Bold; /* Note: 'Semi Bold' might not be a valid value for font-style, you might want to use 'SemiBold' or 'Semi-Bold' instead */
+                text-align: left;
+                font-family: Inter;
+                font-weight: 700;
+                line-height: 129.99999523162842%;
+                font-stretch: normal;
+                border: none; /* Remove default border */
+                outline: none; /* Remove outline */
+                background: linear-gradient(45deg, #4CAF50, #FFC107); /* Add gradient */
+                padding: 0; /* Reset padding */
+                transition: box-shadow 0.3s ease, transform 0.5s ease; /* Add transition for box-shadow and transform */
+            }
+
+            /* Add hover effect */
+                .UsuarioCSS input:hover,
+                .PasswordCSS input:hover,
+            .from_Input:hover {
+                    box-shadow: 0 0 10px rgba(9, 56, 117, 0.5); /* Add box-shadow on hover */
+                    filter: grayscale(100%) opacity(0.3);
+                }
+
+        .login-text05 {
+            top: 924px;
+            left: 704px;
+            color: rgba(0, 0, 0, 1);
+            width: 574px;
+            height: auto;
+            position: absolute;
+            font-size: 24px;
+            font-style: Semi Bold;
+            text-align: left;
+            font-family: Inter;
+            font-weight: 700;
+            line-height: 129.99999523162842%;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+
+        .login-text06 {
+            color: rgba(0, 0, 0, 1);
+            font-weight: 700;
+        }
+
+        .login-button {
+            top: 807px;
+            left: 927px;
+            color: rgba(255, 255, 255, 1);
+            width: 116px;
+            height: auto;
+            position: absolute;
+            font-size: 24px;
+            font-style: semi-bold; /* Changed to lowercase */
+            text-align: left;
+            font-family: Inter;
+            font-weight: 700;
+            line-height: 129.99999523162842%;
+            font-stretch: normal;
+            text-decoration: none;
+            border: none; /* Remove default button border */
+            background: none; /* Remove default button background */
+            cursor: pointer; /* Change cursor to pointer */
+            transition: color 0.3s ease; /* Smooth transition for color change */
+        }
+
+            .login-button:hover {
+                color: rgba(255, 255, 255, 0.8); /* Change color on hover */
+            }
+
+        .login-text10 {
+            top: 702px;
+            left: 809px;
+            color: rgba(9, 56, 117, 1);
+            width: 351px;
+            height: auto;
+            position: absolute;
+            font-size: 24px;
+            font-style: Semi Bold;
+            text-align: left;
+            font-family: Inter;
+            font-weight: 700;
+            line-height: 129.99999523162842%;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+
+        .login-image170640173paddedlogo2 {
+            top: 88px;
+            left: 731px;
+            width: 457px;
+            height: 240px;
+            position: absolute;
+            border-radius: 88px;
+        }
+
+        .login-equalsigninterfacemathequalsignmathematics {
+            top: 13px;
+            left: 15px;
+            width: 36px;
+            height: 33px;
+            display: flex;
+            overflow: hidden;
+            position: absolute;
+            align-items: flex-start;
+            flex-shrink: 0;
+        }
+
+        .login-equalsigninterfacemathequalsignmathematics1 {
+            top: 10.607142448425293px;
+            left: 1.9285714626312256px;
+            width: 32.14285659790039px;
+            height: 11.785714149475098px;
+            display: flex;
+            position: absolute;
+            align-items: flex-start;
+            flex-shrink: 1;
+        }
+
+        .login-vector267 {
+            top: 0px;
+            left: 0px;
+            width: 32px;
+            height: 1px;
+            position: absolute;
+        }
+
+        .login-vector268 {
+            top: 11.785715103149414px;
+            left: -3.4059794984386826e-8px;
+            width: 32px;
+            height: 1px;
+            position: absolute;
+        }
+
+        .login-rectangle2:hover,
+        .login-rectangle3:hover,
+        .login-rectangle4:hover {      
+            transition: transform 0.5s ease; /* Smooth transition for scaling */
+        }
+
+
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" data-tag="font" />
+@*     <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+ *@</head>
+<body>
+@*     <link rel="stylesheet" href="./style.css" />
+ *@    <div>
+@*         <link href="./login.css" rel="stylesheet" />
+ *@        <div class="login-container">
+            <div class="login-login">
+                
+                <span class="login-text">Iniciar Sesión</span>
+                <img src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/10da15fa-925d-4e7b-a3ea-a639322d203f/6b2bc035-37d9-4f7b-adaa-3ac1334c8995?org_if_sml=112807&amp;force_format=original" alt="Rectangle26845" class="login-rectangle2" />
+                <img src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/10da15fa-925d-4e7b-a3ea-a639322d203f/1cca6f79-84c6-49de-861e-5d1e45c766dd?org_if_sml=116020&amp;force_format=original" alt="Rectangle46845" class="login-rectangle4" />
+                <img src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/10da15fa-925d-4e7b-a3ea-a639322d203f/2f1497ba-2760-476f-a90b-d5837a4636ca?org_if_sml=112807&amp;force_format=original" alt="Rectangle36845" class="login-rectangle3" />
+                <form id="loginForm">
+                    <input style="border:none;" id="user" name="user" type="text" class="UsuarioCSS" placeholder="Usuario" required>
+                    <input type="password" id="password" name="password" class="PasswordCSS" placeholder="Contraseña" required>
+               
+                <span class="login-text05">
+                    <span class="login-text06">¿No tienes cuenta registrada?</span>
+                        <a href="~/Home/SolicitarIngreso" style="color: rgba(9, 56, 117, 1);">Solicita tu ingreso</a>
+                </span>
+                    <button class="login-button"><span>Ingresar</span></button>
+                </form>
+                <span class="login-text10">
+                    <span>¿Olvidaste tu contraseña?</span>
+                </span>
+                <img src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/10da15fa-925d-4e7b-a3ea-a639322d203f/09c7fc83-67c5-4d2c-a4d1-bbcafa3bed1c?org_if_sml=115857&amp;force_format=original" alt="IMAGE170640173paddedlogo26845" class="login-image170640173paddedlogo2" />
+                <div class="login-equalsigninterfacemathequalsignmathematics">
+                    <div class="login-equalsigninterfacemathequalsignmathematics1">
+                        <img src="public/external/vector2676845-232q.svg" alt="Vector2676845" class="login-vector267" />
+                        <img src="public/external/vector2686845-1pz.svg" alt="Vector2686845" class="login-vector268" />
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<script>
+    $(document).ready(function () {
+        $('#loginForm').submit(function (e) {
+            e.preventDefault();
+            var user = $('#user').val();
+            var password = $('#password').val();
+            $.ajax({
+                type: 'POST',
+                url: '/Home/Index',
+                data: { username: user, password: password },
+                success: function (data) {
+                    if (data.success) {
+                        window.location.href = ('/Home/Privacy');
+                    } else {
+                        Swal.fire({
+                            title: 'Error',
+                            text: data.message,
+                        });
+                    }
+                },
+                error: function (xhr, status, error) {
+                    Swal.fire({
+                        title: 'Error interno del servidor',
+                        text: 'A ocurrido un error en el inicio de sesión.',
+                    });
+                }
+            });
+        });
+    });
+</script>

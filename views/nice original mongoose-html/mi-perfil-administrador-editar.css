@@ -1,0 +1,1370 @@
+.mi-perfil-administrador-editar-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.mi-perfil-administrador-editar-miperfil-administradoreditar {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.mi-perfil-administrador-editar-rectangle2 {
+  top: 182px;
+  left: 535px;
+  width: 1454px;
+  height: 954px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.mi-perfil-administrador-editar-rectangle10 {
+  top: 233px;
+  left: 613px;
+  width: 1269px;
+  height: 755px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(128, 128, 128, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 64px;
+}
+.mi-perfil-administrador-editar-dashboardbg {
+  top: 182px;
+  left: -60px;
+  width: 486px;
+  height: 937px;
+  position: absolute;
+  border-radius: 33px;
+}
+.mi-perfil-administrador-editar-rectangle6 {
+  top: 221px;
+  left: 599px;
+  width: 1266px;
+  height: 752px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 64px;
+}
+.mi-perfil-administrador-editar-rectangle3 {
+  top: 597px;
+  left: 826px;
+  width: 346px;
+  height: 57px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.mi-perfil-administrador-editar-rectangle15 {
+  top: 776px;
+  left: 1469px;
+  width: 346px;
+  height: 57px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.mi-perfil-administrador-editar-rectangle14 {
+  top: 686px;
+  left: 1469px;
+  width: 346px;
+  height: 57px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.mi-perfil-administrador-editar-rectangle13 {
+  top: 597px;
+  left: 1469px;
+  width: 346px;
+  height: 57px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.mi-perfil-administrador-editar-rectangle12 {
+  top: 776px;
+  left: 826px;
+  width: 346px;
+  height: 57px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.mi-perfil-administrador-editar-rectangle11 {
+  top: 684px;
+  left: 826px;
+  width: 346px;
+  height: 57px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.mi-perfil-administrador-editar-text {
+  top: 610px;
+  left: 601px;
+  color: rgba(9, 56, 117, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text02 {
+  top: 702px;
+  left: 601px;
+  color: rgba(9, 56, 117, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text04 {
+  top: 606px;
+  left: 1264px;
+  color: rgba(9, 56, 117, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text06 {
+  top: 691px;
+  left: 1271px;
+  color: rgba(9, 56, 117, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text08 {
+  top: 785px;
+  left: 616px;
+  color: rgba(9, 56, 117, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text10 {
+  top: 781px;
+  left: 1262px;
+  color: rgba(9, 56, 117, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text12 {
+  top: 610px;
+  left: 843px;
+  color: rgba(9, 56, 117, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text14 {
+  top: 606px;
+  left: 1438px;
+  color: rgba(9, 56, 117, 1);
+  width: 312px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text16 {
+  top: 698px;
+  left: 1433px;
+  color: rgba(9, 56, 117, 1);
+  width: 312px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text18 {
+  top: 789px;
+  left: 1464px;
+  color: rgba(9, 56, 117, 1);
+  width: 312px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-image170640173paddedlogo3 {
+  top: 32px;
+  left: 69px;
+  width: 276px;
+  height: 120px;
+  position: absolute;
+  border-radius: 88px;
+}
+.mi-perfil-administrador-editar-text20 {
+  top: 131px;
+  color: rgba(9, 56, 117, 1);
+  width: 447px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text22 {
+  top: 89px;
+  left: 1634px;
+  color: rgba(9, 56, 117, 1);
+  width: 128px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-usercirclesinglecirclegeometrichumanpersonsingleus {
+  top: 80px;
+  left: 1762px;
+  width: 44px;
+  height: 43px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-usercirclesinglecirclegeometrichumanpersonsingleus1 {
+  top: 1.5357143878936768px;
+  left: 1.5714285373687744px;
+  width: 40.857139587402344px;
+  height: 39.92856979370117px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector {
+  top: 7.6785712242126465px;
+  left: 12.571428298950195px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector2 {
+  top: 27.646970748901367px;
+  left: 7.008508682250977px;
+  width: 27px;
+  height: 7px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector3 {
+  top: 0px;
+  left: 0px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-usercirclesinglecirclegeometrichumanpersonsingleus2 {
+  top: 80px;
+  left: 1762px;
+  width: 44px;
+  height: 43px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-usercirclesinglecirclegeometrichumanpersonsingleus3 {
+  top: 1.5357143878936768px;
+  left: 1.5714285373687744px;
+  width: 40.857139587402344px;
+  height: 39.92856979370117px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector01 {
+  top: 7.6785712242126465px;
+  left: 12.571428298950195px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector201 {
+  top: 27.646970748901367px;
+  left: 7.008508682250977px;
+  width: 27px;
+  height: 7px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector301 {
+  top: 0px;
+  left: 0px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-text24 {
+  top: 95px;
+  left: 1625px;
+  color: rgba(77, 74, 74, 0.6299999952316284);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-login1arrowenterframeleftloginpointrectangle {
+  top: 1021px;
+  left: 56px;
+  width: 29px;
+  height: 29px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-login1arrowenterframeleftloginpointrectangle1 {
+  top: 1.0357142686843872px;
+  left: 1.0357142686843872px;
+  width: 26.928571701049805px;
+  height: 26.928571701049805px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector02 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 27px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector202 {
+  top: 13.464285850524902px;
+  left: 10.357142448425293px;
+  width: 17px;
+  height: 1px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector302 {
+  top: 9.321428298950195px;
+  left: 10.357142448425293px;
+  width: 4px;
+  height: 8px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-login1arrowenterframeleftloginpointrectangle2 {
+  top: 1021px;
+  left: 56px;
+  width: 29px;
+  height: 29px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-login1arrowenterframeleftloginpointrectangle3 {
+  top: 1.0357142686843872px;
+  left: 1.0357142686843872px;
+  width: 26.928571701049805px;
+  height: 26.928571701049805px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector03 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 27px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector203 {
+  top: 13.464285850524902px;
+  left: 10.357142448425293px;
+  width: 17px;
+  height: 1px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector303 {
+  top: 9.321428298950195px;
+  left: 10.357142448425293px;
+  width: 4px;
+  height: 8px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-text25 {
+  top: 1022px;
+  left: 38px;
+  color: rgba(255, 255, 255, 1);
+  width: 259px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-line12 {
+  top: 549px;
+  left: 601px;
+  width: 1263px;
+  height: 1px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-text27 {
+  top: 698px;
+  left: 850px;
+  color: rgba(9, 56, 117, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text29 {
+  top: 797px;
+  left: 840px;
+  color: rgba(9, 56, 117, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-rectangle19 {
+  top: 884px;
+  left: 1276px;
+  width: 193px;
+  height: 62px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.mi-perfil-administrador-editar-text31 {
+  top: 902px;
+  left: 1313px;
+  color: rgba(255, 255, 255, 1);
+  width: 119px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-rectangle20 {
+  top: 884px;
+  left: 1054px;
+  width: 193px;
+  height: 62px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.mi-perfil-administrador-editar-text33 {
+  top: 902px;
+  left: 1091px;
+  color: rgba(255, 255, 255, 1);
+  width: 119px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-usercirclesinglecirclegeometrichumanpersonsingleus4 {
+  top: 249px;
+  left: 1121px;
+  width: 218px;
+  height: 199px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-usercirclesinglecirclegeometrichumanpersonsingleus5 {
+  top: 7.107143402099609px;
+  left: 7.785714149475098px;
+  width: 202.42855834960938px;
+  height: 184.78570556640625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector04 {
+  top: 35.53571319580078px;
+  left: 62.28571319580078px;
+  width: 78px;
+  height: 71px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector204 {
+  top: 127.9476089477539px;
+  left: 34.723976135253906px;
+  width: 133px;
+  height: 34px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector304 {
+  top: 0px;
+  left: 0px;
+  width: 202px;
+  height: 185px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-usercirclesinglecirclegeometrichumanpersonsingleus6 {
+  top: 249px;
+  left: 1121px;
+  width: 218px;
+  height: 199px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-usercirclesinglecirclegeometrichumanpersonsingleus7 {
+  top: 7.107143402099609px;
+  left: 7.785714149475098px;
+  width: 202.42855834960938px;
+  height: 184.78570556640625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector05 {
+  top: 35.53571319580078px;
+  left: 62.28571319580078px;
+  width: 78px;
+  height: 71px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector205 {
+  top: 127.9476089477539px;
+  left: 34.723976135253906px;
+  width: 133px;
+  height: 34px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector305 {
+  top: 0px;
+  left: 0px;
+  width: 202px;
+  height: 185px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-text35 {
+  top: 508px;
+  left: 1066px;
+  color: rgba(9, 56, 117, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text37 {
+  top: 507px;
+  left: 1146px;
+  color: rgba(9, 56, 117, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text38 {
+  top: 508px;
+  left: 1218px;
+  color: rgba(9, 56, 117, 1);
+  width: 231px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text40 {
+  top: 461px;
+  left: 954px;
+  color: rgba(9, 56, 117, 1);
+  width: 586px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text42 {
+  top: 247px;
+  left: 94px;
+  color: rgba(255, 255, 255, 1);
+  width: 183px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text44 {
+  top: 330px;
+  left: 75px;
+  color: rgba(255, 255, 255, 1);
+  width: 177px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text46 {
+  top: 420px;
+  left: 105px;
+  color: rgba(255, 255, 255, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text48 {
+  top: 504px;
+  left: 90px;
+  color: rgba(255, 255, 255, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text50 {
+  top: 591px;
+  left: 98px;
+  color: rgba(255, 255, 255, 1);
+  width: 199px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text52 {
+  top: 679px;
+  left: 99px;
+  color: rgba(255, 255, 255, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-text54 {
+  top: 765px;
+  left: 60px;
+  color: rgba(255, 255, 255, 1);
+  width: 199px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mi-perfil-administrador-editar-browsercheckcheckmarkpasswindowappcodesuccesscheck {
+  top: 233px;
+  left: 41px;
+  width: 47px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-browsercheckcheckmarkpasswindowappcodesuccesscheck1 {
+  top: 1.7500001192092896px;
+  left: 1.6785714626312256px;
+  width: 43.642860412597656px;
+  height: 45.499996185302734px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector06 {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 45px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector206 {
+  top: 10.499999046325684px;
+  left: -3.476937848745365e-8px;
+  width: 44px;
+  height: 1px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector306 {
+  top: 20.999998092651367px;
+  left: 11.75px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-browsercheckcheckmarkpasswindowappcodesuccesscheck2 {
+  top: 233px;
+  left: 41px;
+  width: 47px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-browsercheckcheckmarkpasswindowappcodesuccesscheck3 {
+  top: 1.7500001192092896px;
+  left: 1.6785714626312256px;
+  width: 43.642860412597656px;
+  height: 45.499996185302734px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector07 {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 45px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector207 {
+  top: 10.499999046325684px;
+  left: -3.476937848745365e-8px;
+  width: 44px;
+  height: 1px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector307 {
+  top: 20.999998092651367px;
+  left: 11.75px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-onefingerhold {
+  top: 410px;
+  left: 43px;
+  width: 51px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-onefingerhold1 {
+  top: 1.9809999465942383px;
+  left: 3.9252147674560547px;
+  width: 45.253353118896484px;
+  height: 45.03730010986328px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-ellipse50 {
+  top: -8.940696716308594e-8px;
+  left: 26.03364372253418px;
+  width: 19px;
+  height: 18px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector225 {
+  top: 7.278285026550293px;
+  left: 35.63840103149414px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector107 {
+  top: 9.020549774169922px;
+  left: 2.232952356338501px;
+  width: 31px;
+  height: 36px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-ellipse302 {
+  top: 1.6189602613449097px;
+  left: 2.2990363390817947e-7px;
+  width: 18px;
+  height: 15px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-onefingerhold2 {
+  top: 410px;
+  left: 43px;
+  width: 51px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-onefingerhold3 {
+  top: 1.9809999465942383px;
+  left: 3.9252147674560547px;
+  width: 45.253353118896484px;
+  height: 45.03730010986328px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-ellipse501 {
+  top: -8.940696716308594e-8px;
+  left: 26.03364372253418px;
+  width: 19px;
+  height: 18px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector2251 {
+  top: 7.278285026550293px;
+  left: 35.63840103149414px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector1071 {
+  top: 9.020549774169922px;
+  left: 2.232952356338501px;
+  width: 31px;
+  height: 36px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-ellipse3021 {
+  top: 1.6189602613449097px;
+  left: 2.2990363390817947e-7px;
+  width: 18px;
+  height: 15px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-clipboardcheckcheckmarkedittaskeditionchecklistche {
+  top: 317px;
+  left: 40px;
+  width: 51px;
+  height: 54px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-clipboardcheckcheckmarkedittaskeditionchecklistche1 {
+  top: 1.928571343421936px;
+  left: 6.375px;
+  width: 38.25px;
+  height: 50.142852783203125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector08 {
+  top: 6.156963650028047e-8px;
+  left: 10.01785659790039px;
+  width: 18px;
+  height: 10px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector208 {
+  top: 3.857142686843872px;
+  left: 0px;
+  width: 38px;
+  height: 46px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector308 {
+  top: 21.214284896850586px;
+  left: 11.839285850524902px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-clipboardcheckcheckmarkedittaskeditionchecklistche2 {
+  top: 317px;
+  left: 40px;
+  width: 51px;
+  height: 54px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-clipboardcheckcheckmarkedittaskeditionchecklistche3 {
+  top: 1.928571343421936px;
+  left: 6.375px;
+  width: 38.25px;
+  height: 50.142852783203125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector09 {
+  top: 6.156963650028047e-8px;
+  left: 10.01785659790039px;
+  width: 18px;
+  height: 10px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector209 {
+  top: 3.857142686843872px;
+  left: 0px;
+  width: 38px;
+  height: 46px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector309 {
+  top: 21.214284896850586px;
+  left: 11.839285850524902px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-newfileemptycommonfilecontent {
+  top: 499px;
+  left: 46px;
+  width: 42px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-newfileemptycommonfilecontent1 {
+  top: 1.5714285373687744px;
+  left: 4.5px;
+  width: 33px;
+  height: 40.857147216796875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector10 {
+  top: 0px;
+  left: 0px;
+  width: 33px;
+  height: 41px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector2529 {
+  top: 8.054681188696122e-8px;
+  left: 21px;
+  width: 12px;
+  height: 13px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-newfileemptycommonfilecontent2 {
+  top: 498px;
+  left: 46px;
+  width: 42px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-newfileemptycommonfilecontent3 {
+  top: 1.5714285373687744px;
+  left: 4.5px;
+  width: 33px;
+  height: 40.857147216796875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector11 {
+  top: 0px;
+  left: 0px;
+  width: 33px;
+  height: 41px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector25291 {
+  top: 8.054681188696122e-8px;
+  left: 21px;
+  width: 12px;
+  height: 13px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-usermultiplegroupclosegeometrichumanmultipleperson {
+  top: 756px;
+  left: 46px;
+  width: 46px;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-usermultiplegroupclosegeometrichumanmultipleperson1 {
+  top: 5.357142925262451px;
+  left: 1.6428570747375488px;
+  width: 42.71428680419922px;
+  height: 42.85750198364258px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector12 {
+  top: 2.5774303935577336e-7px;
+  left: 6.571428298950195px;
+  width: 16px;
+  height: 18px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector210 {
+  top: 24.982145309448242px;
+  left: 6.811958996877365e-8px;
+  width: 30px;
+  height: 18px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector310 {
+  top: 2.5774303935577336e-7px;
+  left: 27.928569793701172px;
+  width: 8px;
+  height: 18px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector4 {
+  top: 25.39107322692871px;
+  left: 31.21428680419922px;
+  width: 11px;
+  height: 17px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-hierarchy2nodeorganizationlinksstructurelinknodesn {
+  top: 584px;
+  left: 44px;
+  width: 44px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-hierarchy2nodeorganizationlinksstructurelinknodesn1 {
+  top: 3.5px;
+  left: 1.571428656578064px;
+  width: 40.85714340209961px;
+  height: 42.000003814697266px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector13 {
+  top: 21.000001907348633px;
+  left: 4.714285373687744px;
+  width: 31px;
+  height: 11px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector211 {
+  top: 10.500000953674316px;
+  left: 20.428571701049805px;
+  width: 0px;
+  height: 21px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector2521 {
+  top: 2.5398878733540187e-7px;
+  left: 15.714285850524902px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector2522 {
+  top: 31.500001907348633px;
+  left: 15.714285850524902px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector2523 {
+  top: 31.500001907348633px;
+  left: -1.038823782550935e-7px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector2524 {
+  top: 31.500001907348633px;
+  left: 31.428571701049805px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-layers2designlayerlayerspilestackalign {
+  top: 673px;
+  left: 43px;
+  width: 43px;
+  height: 42px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mi-perfil-administrador-editar-layers2designlayerlayerspilestackalign1 {
+  top: 4.5px;
+  left: 1.5357143878936768px;
+  width: 39.92856979370117px;
+  height: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mi-perfil-administrador-editar-vector14 {
+  top: 4.614552651105441e-8px;
+  left: 15.35714340209961px;
+  width: 25px;
+  height: 18px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector212 {
+  top: 7.5px;
+  left: 7.678571701049805px;
+  width: 25px;
+  height: 18px;
+  position: absolute;
+}
+.mi-perfil-administrador-editar-vector311 {
+  top: 13.5px;
+  left: -5.108969602929392e-8px;
+  width: 26px;
+  height: 19px;
+  position: absolute;
+}

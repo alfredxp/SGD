@@ -1,0 +1,1375 @@
+.actividades-administrador-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.actividades-administrador-actividades-administrador {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.actividades-administrador-rectangle2 {
+  top: 182px;
+  left: 535px;
+  width: 1454px;
+  height: 954px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.actividades-administrador-dashboardbg {
+  top: 182px;
+  left: -60px;
+  width: 486px;
+  height: 937px;
+  position: absolute;
+  border-radius: 33px;
+}
+.actividades-administrador-image170640173paddedlogo3 {
+  top: 32px;
+  left: 69px;
+  width: 276px;
+  height: 120px;
+  position: absolute;
+  border-radius: 88px;
+}
+.actividades-administrador-text {
+  top: 131px;
+  color: rgba(9, 56, 117, 1);
+  width: 447px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text02 {
+  top: 89px;
+  left: 1634px;
+  color: rgba(9, 56, 117, 1);
+  width: 128px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-usercirclesinglecirclegeometrichumanpersonsingleus {
+  top: 80px;
+  left: 1762px;
+  width: 44px;
+  height: 43px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-usercirclesinglecirclegeometrichumanpersonsingleus1 {
+  top: 1.5357143878936768px;
+  left: 1.5714285373687744px;
+  width: 40.857139587402344px;
+  height: 39.92856979370117px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-vector {
+  top: 7.6785712242126465px;
+  left: 12.571428298950195px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.actividades-administrador-vector2 {
+  top: 27.646970748901367px;
+  left: 7.008508682250977px;
+  width: 27px;
+  height: 7px;
+  position: absolute;
+}
+.actividades-administrador-vector3 {
+  top: 0px;
+  left: 0px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.actividades-administrador-usercirclesinglecirclegeometrichumanpersonsingleus2 {
+  top: 80px;
+  left: 1762px;
+  width: 44px;
+  height: 43px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-usercirclesinglecirclegeometrichumanpersonsingleus3 {
+  top: 1.5357143878936768px;
+  left: 1.5714285373687744px;
+  width: 40.857139587402344px;
+  height: 39.92856979370117px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-vector01 {
+  top: 7.6785712242126465px;
+  left: 12.571428298950195px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.actividades-administrador-vector201 {
+  top: 27.646970748901367px;
+  left: 7.008508682250977px;
+  width: 27px;
+  height: 7px;
+  position: absolute;
+}
+.actividades-administrador-vector301 {
+  top: 0px;
+  left: 0px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.actividades-administrador-text04 {
+  top: 95px;
+  left: 1625px;
+  color: rgba(77, 74, 74, 0.6299999952316284);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-login1arrowenterframeleftloginpointrectangle {
+  top: 1021px;
+  left: 56px;
+  width: 29px;
+  height: 29px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-login1arrowenterframeleftloginpointrectangle1 {
+  top: 1.0357142686843872px;
+  left: 1.0357142686843872px;
+  width: 26.928571701049805px;
+  height: 26.928571701049805px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-vector02 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 27px;
+  position: absolute;
+}
+.actividades-administrador-vector202 {
+  top: 13.464285850524902px;
+  left: 10.357142448425293px;
+  width: 17px;
+  height: 1px;
+  position: absolute;
+}
+.actividades-administrador-vector302 {
+  top: 9.321428298950195px;
+  left: 10.357142448425293px;
+  width: 4px;
+  height: 8px;
+  position: absolute;
+}
+.actividades-administrador-login1arrowenterframeleftloginpointrectangle2 {
+  top: 1021px;
+  left: 56px;
+  width: 29px;
+  height: 29px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-login1arrowenterframeleftloginpointrectangle3 {
+  top: 1.0357142686843872px;
+  left: 1.0357142686843872px;
+  width: 26.928571701049805px;
+  height: 26.928571701049805px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-vector03 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 27px;
+  position: absolute;
+}
+.actividades-administrador-vector203 {
+  top: 13.464285850524902px;
+  left: 10.357142448425293px;
+  width: 17px;
+  height: 1px;
+  position: absolute;
+}
+.actividades-administrador-vector303 {
+  top: 9.321428298950195px;
+  left: 10.357142448425293px;
+  width: 4px;
+  height: 8px;
+  position: absolute;
+}
+.actividades-administrador-text05 {
+  top: 1022px;
+  left: 38px;
+  color: rgba(255, 255, 255, 1);
+  width: 259px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-rectangle9 {
+  top: 208px;
+  left: 563.5px;
+  width: 394px;
+  height: 75px;
+  position: absolute;
+}
+.actividades-administrador-text07 {
+  top: 230px;
+  left: 596.5px;
+  color: rgba(9, 56, 117, 0.30000001192092896);
+  width: 361px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text09 {
+  top: 439px;
+  left: 563.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 279px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text11 {
+  top: 513px;
+  left: 563.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 78px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text13 {
+  top: 587px;
+  left: 563.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 78px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text15 {
+  top: 661px;
+  left: 563.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 78px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text17 {
+  top: 439px;
+  left: 712.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 467px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text19 {
+  top: 513px;
+  left: 714.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 465px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text21 {
+  top: 663px;
+  left: 708.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 474px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text23 {
+  top: 590px;
+  left: 714.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 467px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text25 {
+  top: 441px;
+  left: 1508.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text27 {
+  top: 509px;
+  left: 1502.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text29 {
+  top: 590px;
+  left: 1505.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text31 {
+  top: 664px;
+  left: 1502.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text33 {
+  top: 441px;
+  left: 1730.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text35 {
+  top: 509px;
+  left: 1729.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text37 {
+  top: 590px;
+  left: 1730.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text39 {
+  top: 661px;
+  left: 1731.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text41 {
+  top: 345px;
+  left: 563px;
+  color: rgba(9, 56, 117, 1);
+  width: 129px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text43 {
+  top: 343px;
+  left: 868.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 203px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text45 {
+  top: 343px;
+  left: 1276.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 203px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text47 {
+  top: 345px;
+  left: 1493.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 203px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text49 {
+  top: 343px;
+  left: 1727.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 203px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-line9 {
+  top: 313.5px;
+  left: 535px;
+  width: 1385px;
+  height: 1px;
+  position: absolute;
+}
+.actividades-administrador-line10 {
+  top: 412px;
+  left: 535.5px;
+  width: 1385px;
+  height: 1px;
+  position: absolute;
+}
+.actividades-administrador-line11 {
+  top: 312px;
+  left: 684.380859375px;
+  width: 765px;
+  height: 1px;
+  position: absolute;
+}
+.actividades-administrador-line13 {
+  top: 315px;
+  left: 1209.5px;
+  width: 765px;
+  height: 1px;
+  position: absolute;
+}
+.actividades-administrador-line14 {
+  top: 314px;
+  left: 1461.5px;
+  width: 765px;
+  height: 1px;
+  position: absolute;
+}
+.actividades-administrador-line15 {
+  top: 314px;
+  left: 1686.5px;
+  width: 765px;
+  height: 1px;
+  position: absolute;
+}
+.actividades-administrador-text51 {
+  top: 508px;
+  left: 1276.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 279px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text53 {
+  top: 590px;
+  left: 1276.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 279px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text55 {
+  top: 439px;
+  left: 1276.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 279px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text57 {
+  top: 666px;
+  left: 1276.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 279px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text59 {
+  top: 244px;
+  left: 92px;
+  color: rgba(255, 255, 255, 1);
+  width: 183px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text61 {
+  top: 327px;
+  left: 73px;
+  color: rgba(255, 255, 255, 1);
+  width: 177px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text63 {
+  top: 417px;
+  left: 103px;
+  color: rgba(255, 255, 255, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text65 {
+  top: 417px;
+  left: 103px;
+  color: rgba(255, 255, 255, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text67 {
+  top: 501px;
+  left: 88px;
+  color: rgba(255, 255, 255, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text69 {
+  top: 588px;
+  left: 96px;
+  color: rgba(255, 255, 255, 1);
+  width: 199px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text71 {
+  top: 676px;
+  left: 97px;
+  color: rgba(255, 255, 255, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-text73 {
+  top: 762px;
+  left: 58px;
+  color: rgba(255, 255, 255, 1);
+  width: 199px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.actividades-administrador-browsercheckcheckmarkpasswindowappcodesuccesscheck {
+  top: 230px;
+  left: 39px;
+  width: 47px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-browsercheckcheckmarkpasswindowappcodesuccesscheck1 {
+  top: 1.7500001192092896px;
+  left: 1.6785714626312256px;
+  width: 43.642860412597656px;
+  height: 45.499996185302734px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-vector04 {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 45px;
+  position: absolute;
+}
+.actividades-administrador-vector204 {
+  top: 10.499999046325684px;
+  left: -3.476937848745365e-8px;
+  width: 44px;
+  height: 1px;
+  position: absolute;
+}
+.actividades-administrador-vector304 {
+  top: 20.999998092651367px;
+  left: 11.75px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+}
+.actividades-administrador-browsercheckcheckmarkpasswindowappcodesuccesscheck2 {
+  top: 230px;
+  left: 39px;
+  width: 47px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-browsercheckcheckmarkpasswindowappcodesuccesscheck3 {
+  top: 1.7500001192092896px;
+  left: 1.6785714626312256px;
+  width: 43.642860412597656px;
+  height: 45.499996185302734px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-vector05 {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 45px;
+  position: absolute;
+}
+.actividades-administrador-vector205 {
+  top: 10.499999046325684px;
+  left: -3.476937848745365e-8px;
+  width: 44px;
+  height: 1px;
+  position: absolute;
+}
+.actividades-administrador-vector305 {
+  top: 20.999998092651367px;
+  left: 11.75px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+}
+.actividades-administrador-onefingerhold {
+  top: 407px;
+  left: 41px;
+  width: 51px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-onefingerhold1 {
+  top: 1.9809999465942383px;
+  left: 3.9252147674560547px;
+  width: 45.253353118896484px;
+  height: 45.03730010986328px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-ellipse50 {
+  top: -8.940696716308594e-8px;
+  left: 26.03364372253418px;
+  width: 19px;
+  height: 18px;
+  position: absolute;
+}
+.actividades-administrador-vector225 {
+  top: 7.278285026550293px;
+  left: 35.63840103149414px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.actividades-administrador-vector107 {
+  top: 9.020549774169922px;
+  left: 2.232952356338501px;
+  width: 31px;
+  height: 36px;
+  position: absolute;
+}
+.actividades-administrador-ellipse302 {
+  top: 1.6189602613449097px;
+  left: 2.2990363390817947e-7px;
+  width: 18px;
+  height: 15px;
+  position: absolute;
+}
+.actividades-administrador-onefingerhold2 {
+  top: 407px;
+  left: 41px;
+  width: 51px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-onefingerhold3 {
+  top: 1.9809999465942383px;
+  left: 3.9252147674560547px;
+  width: 45.253353118896484px;
+  height: 45.03730010986328px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-ellipse501 {
+  top: -8.940696716308594e-8px;
+  left: 26.03364372253418px;
+  width: 19px;
+  height: 18px;
+  position: absolute;
+}
+.actividades-administrador-vector2251 {
+  top: 7.278285026550293px;
+  left: 35.63840103149414px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.actividades-administrador-vector1071 {
+  top: 9.020549774169922px;
+  left: 2.232952356338501px;
+  width: 31px;
+  height: 36px;
+  position: absolute;
+}
+.actividades-administrador-ellipse3021 {
+  top: 1.6189602613449097px;
+  left: 2.2990363390817947e-7px;
+  width: 18px;
+  height: 15px;
+  position: absolute;
+}
+.actividades-administrador-clipboardcheckcheckmarkedittaskeditionchecklistche {
+  top: 314px;
+  left: 38px;
+  width: 51px;
+  height: 54px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-clipboardcheckcheckmarkedittaskeditionchecklistche1 {
+  top: 1.928571343421936px;
+  left: 6.375px;
+  width: 38.25px;
+  height: 50.142852783203125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-vector06 {
+  top: 6.156963650028047e-8px;
+  left: 10.01785659790039px;
+  width: 18px;
+  height: 10px;
+  position: absolute;
+}
+.actividades-administrador-vector206 {
+  top: 3.857142686843872px;
+  left: 0px;
+  width: 38px;
+  height: 46px;
+  position: absolute;
+}
+.actividades-administrador-vector306 {
+  top: 21.214284896850586px;
+  left: 11.839285850524902px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.actividades-administrador-clipboardcheckcheckmarkedittaskeditionchecklistche2 {
+  top: 314px;
+  left: 38px;
+  width: 51px;
+  height: 54px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-clipboardcheckcheckmarkedittaskeditionchecklistche3 {
+  top: 1.928571343421936px;
+  left: 6.375px;
+  width: 38.25px;
+  height: 50.142852783203125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-vector07 {
+  top: 6.156963650028047e-8px;
+  left: 10.01785659790039px;
+  width: 18px;
+  height: 10px;
+  position: absolute;
+}
+.actividades-administrador-vector207 {
+  top: 3.857142686843872px;
+  left: 0px;
+  width: 38px;
+  height: 46px;
+  position: absolute;
+}
+.actividades-administrador-vector307 {
+  top: 21.214284896850586px;
+  left: 11.839285850524902px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.actividades-administrador-newfileemptycommonfilecontent {
+  top: 496px;
+  left: 44px;
+  width: 42px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-newfileemptycommonfilecontent1 {
+  top: 1.5714285373687744px;
+  left: 4.5px;
+  width: 33px;
+  height: 40.857147216796875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-vector08 {
+  top: 0px;
+  left: 0px;
+  width: 33px;
+  height: 41px;
+  position: absolute;
+}
+.actividades-administrador-vector2529 {
+  top: 8.054681188696122e-8px;
+  left: 21px;
+  width: 12px;
+  height: 13px;
+  position: absolute;
+}
+.actividades-administrador-newfileemptycommonfilecontent2 {
+  top: 495px;
+  left: 44px;
+  width: 42px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-newfileemptycommonfilecontent3 {
+  top: 1.5714285373687744px;
+  left: 4.5px;
+  width: 33px;
+  height: 40.857147216796875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-vector09 {
+  top: 0px;
+  left: 0px;
+  width: 33px;
+  height: 41px;
+  position: absolute;
+}
+.actividades-administrador-vector25291 {
+  top: 8.054681188696122e-8px;
+  left: 21px;
+  width: 12px;
+  height: 13px;
+  position: absolute;
+}
+.actividades-administrador-usermultiplegroupclosegeometrichumanmultipleperson {
+  top: 753px;
+  left: 44px;
+  width: 46px;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-usermultiplegroupclosegeometrichumanmultipleperson1 {
+  top: 5.357142925262451px;
+  left: 1.6428570747375488px;
+  width: 42.71428680419922px;
+  height: 42.85750198364258px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-vector10 {
+  top: 2.5774303935577336e-7px;
+  left: 6.571428298950195px;
+  width: 16px;
+  height: 18px;
+  position: absolute;
+}
+.actividades-administrador-vector208 {
+  top: 24.982145309448242px;
+  left: 6.811958996877365e-8px;
+  width: 30px;
+  height: 18px;
+  position: absolute;
+}
+.actividades-administrador-vector308 {
+  top: 2.5774303935577336e-7px;
+  left: 27.928569793701172px;
+  width: 8px;
+  height: 18px;
+  position: absolute;
+}
+.actividades-administrador-vector4 {
+  top: 25.39107322692871px;
+  left: 31.21428680419922px;
+  width: 11px;
+  height: 17px;
+  position: absolute;
+}
+.actividades-administrador-hierarchy2nodeorganizationlinksstructurelinknodesn {
+  top: 581px;
+  left: 42px;
+  width: 44px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-hierarchy2nodeorganizationlinksstructurelinknodesn1 {
+  top: 3.5px;
+  left: 1.571428656578064px;
+  width: 40.85714340209961px;
+  height: 42.000003814697266px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-vector11 {
+  top: 21.000001907348633px;
+  left: 4.714285373687744px;
+  width: 31px;
+  height: 11px;
+  position: absolute;
+}
+.actividades-administrador-vector209 {
+  top: 10.500000953674316px;
+  left: 20.428571701049805px;
+  width: 0px;
+  height: 21px;
+  position: absolute;
+}
+.actividades-administrador-vector2521 {
+  top: 2.5398878733540187e-7px;
+  left: 15.714285850524902px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.actividades-administrador-vector2522 {
+  top: 31.500001907348633px;
+  left: 15.714285850524902px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.actividades-administrador-vector2523 {
+  top: 31.500001907348633px;
+  left: -1.038823782550935e-7px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.actividades-administrador-vector2524 {
+  top: 31.500001907348633px;
+  left: 31.428571701049805px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.actividades-administrador-layers2designlayerlayerspilestackalign {
+  top: 670px;
+  left: 41px;
+  width: 43px;
+  height: 42px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.actividades-administrador-layers2designlayerlayerspilestackalign1 {
+  top: 4.5px;
+  left: 1.5357143878936768px;
+  width: 39.92856979370117px;
+  height: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.actividades-administrador-vector12 {
+  top: 4.614552651105441e-8px;
+  left: 15.35714340209961px;
+  width: 25px;
+  height: 18px;
+  position: absolute;
+}
+.actividades-administrador-vector210 {
+  top: 7.5px;
+  left: 7.678571701049805px;
+  width: 25px;
+  height: 18px;
+  position: absolute;
+}
+.actividades-administrador-vector309 {
+  top: 13.5px;
+  left: -5.108969602929392e-8px;
+  width: 26px;
+  height: 19px;
+  position: absolute;
+}
+.actividades-administrador-text75 {
+  top: 105px;
+  left: 535px;
+  color: rgba(9, 56, 117, 1);
+  width: 278px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Extra Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}

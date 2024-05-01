@@ -1,0 +1,1953 @@
+.reportes-filtro-administrador-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.reportes-filtro-administrador-reportes-filtro-administrador {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.reportes-filtro-administrador-rectangle2 {
+  top: 182px;
+  left: 535px;
+  width: 1454px;
+  height: 954px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.reportes-filtro-administrador-dashboardbg {
+  top: 182px;
+  left: -60px;
+  width: 486px;
+  height: 937px;
+  position: absolute;
+  border-radius: 33px;
+}
+.reportes-filtro-administrador-image170640173paddedlogo3 {
+  top: 32px;
+  left: 69px;
+  width: 276px;
+  height: 120px;
+  position: absolute;
+  border-radius: 88px;
+}
+.reportes-filtro-administrador-text {
+  top: 131px;
+  color: rgba(9, 56, 117, 1);
+  width: 447px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text002 {
+  top: 89px;
+  left: 1634px;
+  color: rgba(9, 56, 117, 1);
+  width: 128px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-usercirclesinglecirclegeometrichumanpersonsingleus {
+  top: 80px;
+  left: 1762px;
+  width: 44px;
+  height: 43px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-usercirclesinglecirclegeometrichumanpersonsingleus1 {
+  top: 1.5357143878936768px;
+  left: 1.5714285373687744px;
+  width: 40.857139587402344px;
+  height: 39.92856979370117px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-vector {
+  top: 7.6785712242126465px;
+  left: 12.571428298950195px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector2 {
+  top: 27.646970748901367px;
+  left: 7.008508682250977px;
+  width: 27px;
+  height: 7px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector3 {
+  top: 0px;
+  left: 0px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.reportes-filtro-administrador-usercirclesinglecirclegeometrichumanpersonsingleus2 {
+  top: 80px;
+  left: 1762px;
+  width: 44px;
+  height: 43px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-usercirclesinglecirclegeometrichumanpersonsingleus3 {
+  top: 1.5357143878936768px;
+  left: 1.5714285373687744px;
+  width: 40.857139587402344px;
+  height: 39.92856979370117px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-vector01 {
+  top: 7.6785712242126465px;
+  left: 12.571428298950195px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector201 {
+  top: 27.646970748901367px;
+  left: 7.008508682250977px;
+  width: 27px;
+  height: 7px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector301 {
+  top: 0px;
+  left: 0px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.reportes-filtro-administrador-text004 {
+  top: 95px;
+  left: 1625px;
+  color: rgba(77, 74, 74, 0.6299999952316284);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-login1arrowenterframeleftloginpointrectangle {
+  top: 1021px;
+  left: 56px;
+  width: 29px;
+  height: 29px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-login1arrowenterframeleftloginpointrectangle1 {
+  top: 1.0357142686843872px;
+  left: 1.0357142686843872px;
+  width: 26.928571701049805px;
+  height: 26.928571701049805px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-vector02 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 27px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector202 {
+  top: 13.464285850524902px;
+  left: 10.357142448425293px;
+  width: 17px;
+  height: 1px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector302 {
+  top: 9.321428298950195px;
+  left: 10.357142448425293px;
+  width: 4px;
+  height: 8px;
+  position: absolute;
+}
+.reportes-filtro-administrador-login1arrowenterframeleftloginpointrectangle2 {
+  top: 1021px;
+  left: 56px;
+  width: 29px;
+  height: 29px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-login1arrowenterframeleftloginpointrectangle3 {
+  top: 1.0357142686843872px;
+  left: 1.0357142686843872px;
+  width: 26.928571701049805px;
+  height: 26.928571701049805px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-vector03 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 27px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector203 {
+  top: 13.464285850524902px;
+  left: 10.357142448425293px;
+  width: 17px;
+  height: 1px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector303 {
+  top: 9.321428298950195px;
+  left: 10.357142448425293px;
+  width: 4px;
+  height: 8px;
+  position: absolute;
+}
+.reportes-filtro-administrador-text005 {
+  top: 1022px;
+  left: 38px;
+  color: rgba(255, 255, 255, 1);
+  width: 259px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-rectangle9 {
+  top: 211px;
+  left: 563.5px;
+  width: 394px;
+  height: 75px;
+  position: absolute;
+}
+.reportes-filtro-administrador-text007 {
+  top: 233px;
+  left: 596.5px;
+  color: rgba(9, 56, 117, 0.30000001192092896);
+  width: 361px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text009 {
+  top: 442px;
+  left: 576px;
+  color: rgba(9, 56, 117, 1);
+  width: 79px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text011 {
+  top: 563px;
+  left: 576px;
+  color: rgba(9, 56, 117, 1);
+  width: 78px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text013 {
+  top: 678px;
+  left: 577px;
+  color: rgba(9, 56, 117, 1);
+  width: 78px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text015 {
+  top: 788px;
+  left: 577px;
+  color: rgba(9, 56, 117, 1);
+  width: 78px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text017 {
+  top: 431px;
+  left: 685.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 177px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text019 {
+  top: 548px;
+  left: 685.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 177px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text021 {
+  top: 655px;
+  left: 689.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 177px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text023 {
+  top: 772px;
+  left: 688.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 177px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text025 {
+  top: 428px;
+  left: 895.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 297px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text027 {
+  top: 772px;
+  left: 889.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 297px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text029 {
+  top: 549px;
+  left: 896.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 296px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text031 {
+  top: 647px;
+  left: 895.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 296px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text033 {
+  top: 441px;
+  left: 1584.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text035 {
+  top: 563px;
+  left: 1584.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text037 {
+  top: 671px;
+  left: 1582.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text039 {
+  top: 786px;
+  left: 1584.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text041 {
+  top: 442px;
+  left: 1752.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text043 {
+  top: 562px;
+  left: 1752.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text045 {
+  top: 672px;
+  left: 1755.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text047 {
+  top: 787px;
+  left: 1755.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text049 {
+  top: 348px;
+  left: 552px;
+  color: rgba(9, 56, 117, 1);
+  width: 127px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text051 {
+  top: 348px;
+  left: 715.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 203px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text053 {
+  top: 348px;
+  left: 942.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 203px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text055 {
+  top: 346px;
+  left: 1227.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 203px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text057 {
+  top: 349px;
+  left: 1591.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 203px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text059 {
+  top: 346px;
+  left: 1415.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 203px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text061 {
+  top: 328px;
+  left: 1724.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 203px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-line9 {
+  top: 316.5px;
+  left: 535px;
+  width: 1385px;
+  height: 1px;
+  position: absolute;
+}
+.reportes-filtro-administrador-line10 {
+  top: 415px;
+  left: 535.5px;
+  width: 1385px;
+  height: 1px;
+  position: absolute;
+}
+.reportes-filtro-administrador-line11 {
+  top: 315px;
+  left: 684.380859375px;
+  width: 765px;
+  height: 1px;
+  position: absolute;
+}
+.reportes-filtro-administrador-line12 {
+  top: 317px;
+  left: 880.5px;
+  width: 765px;
+  height: 1px;
+  position: absolute;
+}
+.reportes-filtro-administrador-line13 {
+  top: 318px;
+  left: 1209.5px;
+  width: 765px;
+  height: 1px;
+  position: absolute;
+}
+.reportes-filtro-administrador-line14 {
+  top: 315px;
+  left: 1390.5px;
+  width: 765px;
+  height: 1px;
+  position: absolute;
+}
+.reportes-filtro-administrador-line15 {
+  top: 320px;
+  left: 1726.5px;
+  width: 765px;
+  height: 1px;
+  position: absolute;
+}
+.reportes-filtro-administrador-line16 {
+  top: 317px;
+  left: 1571.5px;
+  width: 765px;
+  height: 1px;
+  position: absolute;
+}
+.reportes-filtro-administrador-rectangle21 {
+  top: 221px;
+  left: 986.5px;
+  width: 193px;
+  height: 62px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.reportes-filtro-administrador-text063 {
+  top: 239px;
+  left: 1023.5px;
+  color: rgba(255, 255, 255, 1);
+  width: 119px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text065 {
+  top: 441px;
+  left: 1245.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 98px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text067 {
+  top: 568px;
+  left: 1249.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 98px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text069 {
+  top: 674px;
+  left: 1253.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 98px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text071 {
+  top: 239px;
+  left: 92px;
+  color: rgba(255, 255, 255, 1);
+  width: 183px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text073 {
+  top: 322px;
+  left: 73px;
+  color: rgba(255, 255, 255, 1);
+  width: 177px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text075 {
+  top: 322px;
+  left: 73px;
+  color: rgba(255, 255, 255, 1);
+  width: 177px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text077 {
+  top: 412px;
+  left: 103px;
+  color: rgba(255, 255, 255, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text079 {
+  top: 496px;
+  left: 88px;
+  color: rgba(255, 255, 255, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text081 {
+  top: 583px;
+  left: 96px;
+  color: rgba(255, 255, 255, 1);
+  width: 199px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text083 {
+  top: 671px;
+  left: 97px;
+  color: rgba(255, 255, 255, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text085 {
+  top: 757px;
+  left: 58px;
+  color: rgba(255, 255, 255, 1);
+  width: 199px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-browsercheckcheckmarkpasswindowappcodesuccesscheck {
+  top: 225px;
+  left: 39px;
+  width: 47px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-browsercheckcheckmarkpasswindowappcodesuccesscheck1 {
+  top: 1.7500001192092896px;
+  left: 1.6785714626312256px;
+  width: 43.642860412597656px;
+  height: 45.499996185302734px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-vector04 {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 45px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector204 {
+  top: 10.499999046325684px;
+  left: -3.476937848745365e-8px;
+  width: 44px;
+  height: 1px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector304 {
+  top: 20.999998092651367px;
+  left: 11.75px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+}
+.reportes-filtro-administrador-browsercheckcheckmarkpasswindowappcodesuccesscheck2 {
+  top: 225px;
+  left: 39px;
+  width: 47px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-browsercheckcheckmarkpasswindowappcodesuccesscheck3 {
+  top: 1.7500001192092896px;
+  left: 1.6785714626312256px;
+  width: 43.642860412597656px;
+  height: 45.499996185302734px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-vector05 {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 45px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector205 {
+  top: 10.499999046325684px;
+  left: -3.476937848745365e-8px;
+  width: 44px;
+  height: 1px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector305 {
+  top: 20.999998092651367px;
+  left: 11.75px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+}
+.reportes-filtro-administrador-onefingerhold {
+  top: 402px;
+  left: 41px;
+  width: 51px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-onefingerhold1 {
+  top: 1.9809999465942383px;
+  left: 3.9252147674560547px;
+  width: 45.253353118896484px;
+  height: 45.03730010986328px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-ellipse50 {
+  top: -8.940696716308594e-8px;
+  left: 26.03364372253418px;
+  width: 19px;
+  height: 18px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector225 {
+  top: 7.278285026550293px;
+  left: 35.63840103149414px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector107 {
+  top: 9.020549774169922px;
+  left: 2.232952356338501px;
+  width: 31px;
+  height: 36px;
+  position: absolute;
+}
+.reportes-filtro-administrador-ellipse302 {
+  top: 1.6189602613449097px;
+  left: 2.2990363390817947e-7px;
+  width: 18px;
+  height: 15px;
+  position: absolute;
+}
+.reportes-filtro-administrador-onefingerhold2 {
+  top: 402px;
+  left: 41px;
+  width: 51px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-onefingerhold3 {
+  top: 1.9809999465942383px;
+  left: 3.9252147674560547px;
+  width: 45.253353118896484px;
+  height: 45.03730010986328px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-ellipse501 {
+  top: -8.940696716308594e-8px;
+  left: 26.03364372253418px;
+  width: 19px;
+  height: 18px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector2251 {
+  top: 7.278285026550293px;
+  left: 35.63840103149414px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector1071 {
+  top: 9.020549774169922px;
+  left: 2.232952356338501px;
+  width: 31px;
+  height: 36px;
+  position: absolute;
+}
+.reportes-filtro-administrador-ellipse3021 {
+  top: 1.6189602613449097px;
+  left: 2.2990363390817947e-7px;
+  width: 18px;
+  height: 15px;
+  position: absolute;
+}
+.reportes-filtro-administrador-clipboardcheckcheckmarkedittaskeditionchecklistche {
+  top: 309px;
+  left: 38px;
+  width: 51px;
+  height: 54px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-clipboardcheckcheckmarkedittaskeditionchecklistche1 {
+  top: 1.928571343421936px;
+  left: 6.375px;
+  width: 38.25px;
+  height: 50.142852783203125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-vector06 {
+  top: 6.156963650028047e-8px;
+  left: 10.01785659790039px;
+  width: 18px;
+  height: 10px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector206 {
+  top: 3.857142686843872px;
+  left: 0px;
+  width: 38px;
+  height: 46px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector306 {
+  top: 21.214284896850586px;
+  left: 11.839285850524902px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.reportes-filtro-administrador-clipboardcheckcheckmarkedittaskeditionchecklistche2 {
+  top: 309px;
+  left: 38px;
+  width: 51px;
+  height: 54px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-clipboardcheckcheckmarkedittaskeditionchecklistche3 {
+  top: 1.928571343421936px;
+  left: 6.375px;
+  width: 38.25px;
+  height: 50.142852783203125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-vector07 {
+  top: 6.156963650028047e-8px;
+  left: 10.01785659790039px;
+  width: 18px;
+  height: 10px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector207 {
+  top: 3.857142686843872px;
+  left: 0px;
+  width: 38px;
+  height: 46px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector307 {
+  top: 21.214284896850586px;
+  left: 11.839285850524902px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.reportes-filtro-administrador-newfileemptycommonfilecontent {
+  top: 491px;
+  left: 44px;
+  width: 42px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-newfileemptycommonfilecontent1 {
+  top: 1.5714285373687744px;
+  left: 4.5px;
+  width: 33px;
+  height: 40.857147216796875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-vector08 {
+  top: 0px;
+  left: 0px;
+  width: 33px;
+  height: 41px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector2529 {
+  top: 8.054681188696122e-8px;
+  left: 21px;
+  width: 12px;
+  height: 13px;
+  position: absolute;
+}
+.reportes-filtro-administrador-newfileemptycommonfilecontent2 {
+  top: 490px;
+  left: 44px;
+  width: 42px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-newfileemptycommonfilecontent3 {
+  top: 1.5714285373687744px;
+  left: 4.5px;
+  width: 33px;
+  height: 40.857147216796875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-vector09 {
+  top: 0px;
+  left: 0px;
+  width: 33px;
+  height: 41px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector25291 {
+  top: 8.054681188696122e-8px;
+  left: 21px;
+  width: 12px;
+  height: 13px;
+  position: absolute;
+}
+.reportes-filtro-administrador-usermultiplegroupclosegeometrichumanmultipleperson {
+  top: 748px;
+  left: 44px;
+  width: 46px;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-usermultiplegroupclosegeometrichumanmultipleperson1 {
+  top: 5.357142925262451px;
+  left: 1.6428570747375488px;
+  width: 42.71428680419922px;
+  height: 42.85750198364258px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-vector10 {
+  top: 2.5774303935577336e-7px;
+  left: 6.571428298950195px;
+  width: 16px;
+  height: 18px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector208 {
+  top: 24.982145309448242px;
+  left: 6.811958996877365e-8px;
+  width: 30px;
+  height: 18px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector308 {
+  top: 2.5774303935577336e-7px;
+  left: 27.928569793701172px;
+  width: 8px;
+  height: 18px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector4 {
+  top: 25.39107322692871px;
+  left: 31.21428680419922px;
+  width: 11px;
+  height: 17px;
+  position: absolute;
+}
+.reportes-filtro-administrador-hierarchy2nodeorganizationlinksstructurelinknodesn {
+  top: 576px;
+  left: 42px;
+  width: 44px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-hierarchy2nodeorganizationlinksstructurelinknodesn1 {
+  top: 3.5px;
+  left: 1.571428656578064px;
+  width: 40.85714340209961px;
+  height: 42.000003814697266px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-vector11 {
+  top: 21.000001907348633px;
+  left: 4.714285373687744px;
+  width: 31px;
+  height: 11px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector209 {
+  top: 10.500000953674316px;
+  left: 20.428571701049805px;
+  width: 0px;
+  height: 21px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector2521 {
+  top: 2.5398878733540187e-7px;
+  left: 15.714285850524902px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector2522 {
+  top: 31.500001907348633px;
+  left: 15.714285850524902px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector2523 {
+  top: 31.500001907348633px;
+  left: -1.038823782550935e-7px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector2524 {
+  top: 31.500001907348633px;
+  left: 31.428571701049805px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.reportes-filtro-administrador-layers2designlayerlayerspilestackalign {
+  top: 665px;
+  left: 41px;
+  width: 43px;
+  height: 42px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-layers2designlayerlayerspilestackalign1 {
+  top: 4.5px;
+  left: 1.5357143878936768px;
+  width: 39.92856979370117px;
+  height: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.reportes-filtro-administrador-vector12 {
+  top: 4.614552651105441e-8px;
+  left: 15.35714340209961px;
+  width: 25px;
+  height: 18px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector210 {
+  top: 7.5px;
+  left: 7.678571701049805px;
+  width: 25px;
+  height: 18px;
+  position: absolute;
+}
+.reportes-filtro-administrador-vector309 {
+  top: 13.5px;
+  left: -5.108969602929392e-8px;
+  width: 26px;
+  height: 19px;
+  position: absolute;
+}
+.reportes-filtro-administrador-text087 {
+  top: 772px;
+  left: 1253.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 98px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text089 {
+  top: 434px;
+  left: 1397.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 167px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text091 {
+  top: 568px;
+  left: 1391.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 174px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text093 {
+  top: 671px;
+  left: 1432.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 102px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text095 {
+  top: 113px;
+  left: 535px;
+  color: rgba(9, 56, 117, 1);
+  width: 197px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Extra Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text097 {
+  top: 762px;
+  left: 1406.5px;
+  color: rgba(9, 56, 117, 1);
+  width: 181px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-rectangle22 {
+  top: 216px;
+  left: 1625px;
+  width: 248px;
+  height: 62px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.reportes-filtro-administrador-text099 {
+  top: 234px;
+  left: 1650px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-rectangle23 {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+}
+.reportes-filtro-administrador-rectangle6 {
+  top: 201px;
+  left: 554px;
+  width: 1213px;
+  height: 428px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 64px;
+}
+.reportes-filtro-administrador-text101 {
+  top: 432px;
+  left: 1354px;
+  color: rgba(9, 56, 117, 1);
+  width: 409px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-rectangle28 {
+  top: 473px;
+  left: 972px;
+  width: 303px;
+  height: 53px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 64px;
+}
+.reportes-filtro-administrador-rectangle30 {
+  top: 473px;
+  left: 600px;
+  width: 303px;
+  height: 53px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 64px;
+}
+.reportes-filtro-administrador-rectangle29 {
+  top: 474px;
+  left: 1337px;
+  width: 318px;
+  height: 53px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 64px;
+}
+.reportes-filtro-administrador-text103 {
+  top: 486px;
+  left: 1357px;
+  color: rgba(9, 56, 117, 0.30000001192092896);
+  width: 361px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text105 {
+  top: 426px;
+  left: 976px;
+  color: rgba(9, 56, 117, 1);
+  width: 409px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text107 {
+  top: 428px;
+  left: 606px;
+  color: rgba(9, 56, 117, 1);
+  width: 409px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text109 {
+  top: 483px;
+  left: 987px;
+  color: rgba(9, 56, 117, 0.30000001192092896);
+  width: 361px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-rectangle31 {
+  top: 554px;
+  left: 1527px;
+  width: 193px;
+  height: 62px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.reportes-filtro-administrador-text111 {
+  top: 572px;
+  left: 1564px;
+  color: rgba(255, 255, 255, 1);
+  width: 119px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-rectangle24 {
+  top: 355px;
+  left: 600px;
+  width: 303px;
+  height: 53px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 64px;
+}
+.reportes-filtro-administrador-rectangle27 {
+  top: 353px;
+  left: 974px;
+  width: 303px;
+  height: 53px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 64px;
+}
+.reportes-filtro-administrador-close-close-big {
+  top: 225px;
+  left: 1677px;
+  width: 43px;
+  height: 39px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.reportes-filtro-administrador-svgstroked {
+  top: 3.5688283443450928px;
+  left: 4.152045249938965px;
+  width: 35px;
+  height: 32px;
+  position: absolute;
+}
+.reportes-filtro-administrador-text113 {
+  top: 221px;
+  left: 591px;
+  color: rgba(9, 56, 117, 1);
+  width: 409px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-line5 {
+  top: 287px;
+  left: 552px;
+  width: 1211px;
+  height: 1px;
+  position: absolute;
+}
+.reportes-filtro-administrador-text115 {
+  top: 312px;
+  left: 606px;
+  color: rgba(9, 56, 117, 1);
+  width: 409px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text117 {
+  top: 312px;
+  left: 978px;
+  color: rgba(9, 56, 117, 1);
+  width: 409px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text119 {
+  top: 308px;
+  left: 1345px;
+  color: rgba(9, 56, 117, 1);
+  width: 409px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-rectangle26 {
+  top: 356px;
+  left: 1337px;
+  width: 318px;
+  height: 53px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 64px;
+}
+.reportes-filtro-administrador-text121 {
+  top: 364px;
+  left: 1353px;
+  color: rgba(9, 56, 117, 0.30000001192092896);
+  width: 361px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text123 {
+  top: 364px;
+  left: 992px;
+  color: rgba(9, 56, 117, 0.30000001192092896);
+  width: 361px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text125 {
+  top: 367px;
+  left: 613px;
+  color: rgba(9, 56, 117, 0.30000001192092896);
+  width: 361px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.reportes-filtro-administrador-text127 {
+  top: 485px;
+  left: 615px;
+  color: rgba(9, 56, 117, 0.30000001192092896);
+  width: 361px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}

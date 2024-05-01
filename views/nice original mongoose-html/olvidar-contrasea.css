@@ -1,0 +1,148 @@
+.olvidar-contrasea-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.olvidar-contrasea-olvidarcontrasea {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.olvidar-contrasea-text {
+  top: 366px;
+  left: 741px;
+  color: rgba(9, 56, 117, 1);
+  width: 467px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.olvidar-contrasea-rectangle2 {
+  top: 574px;
+  left: 617px;
+  width: 711px;
+  height: 75px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.olvidar-contrasea-text02 {
+  top: 596px;
+  left: 646px;
+  color: rgba(9, 56, 117, 0.30000001192092896);
+  width: 361px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.olvidar-contrasea-rectangle4 {
+  top: 785px;
+  left: 865px;
+  width: 220px;
+  height: 75px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.olvidar-contrasea-text04 {
+  top: 508px;
+  left: 617px;
+  color: rgba(9, 56, 117, 1);
+  width: 686px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.olvidar-contrasea-text06 {
+  top: 924px;
+  left: 704px;
+  color: rgba(0, 0, 0, 1);
+  width: 574px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.olvidar-contrasea-text07 {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+}
+.olvidar-contrasea-text09 {
+  top: 807px;
+  left: 935px;
+  color: rgba(255, 255, 255, 1);
+  width: 116px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.olvidar-contrasea-text11 {
+  top: 706px;
+  left: 614px;
+  color: rgba(9, 56, 117, 1);
+  width: 821px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.olvidar-contrasea-image170640173paddedlogo2 {
+  top: 88px;
+  left: 731px;
+  width: 457px;
+  height: 240px;
+  position: absolute;
+  border-radius: 88px;
+}

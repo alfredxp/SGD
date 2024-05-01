@@ -1,0 +1,194 @@
+.login-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.login-login {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.login-text {
+  top: 361px;
+  left: 843px;
+  color: rgb(9, 56, 117);
+  width: var(--dl-size-size-xxlarge);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: "Inter";
+  font-weight: 700;
+  line-height: 130%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-rectangle2 {
+  top: 594px;
+  left: 604px;
+  width: 711px;
+  height: 75px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.login-rectangle4 {
+  top: 785px;
+  left: 865px;
+  width: 220px;
+  height: 75px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.login-rectangle3 {
+  top: 486px;
+  left: 604px;
+  width: 711px;
+  height: 75px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.login-text03,
+.login-text01 {
+    color: rgba(9, 56, 117, 1);
+    width: 273px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Semi Bold; /* Note: 'Semi Bold' might not be a valid value for font-style, you might want to use 'SemiBold' or 'Semi-Bold' instead */
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    text-decoration: none;
+    border: none; /* Remove default border */
+    background-color: transparent; /* Make background transparent */
+    border-color: transparent;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.login-text03 {
+    top: 616px;
+    left: 629px;
+}
+
+.login-text01 {
+    top: 508px;
+    left: 629px;
+}
+
+
+.login-text05 {
+  top: 924px;
+  left: 704px;
+  color: rgba(0, 0, 0, 1);
+  width: 574px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text06 {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+}
+.login-text08 {
+  top: 807px;
+  left: 927px;
+  color: rgba(255, 255, 255, 1);
+  width: 116px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text10 {
+  top: 702px;
+  left: 809px;
+  color: rgba(9, 56, 117, 1);
+  width: 351px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-image170640173paddedlogo2 {
+  top: 88px;
+  left: 731px;
+  width: 457px;
+  height: 240px;
+  position: absolute;
+  border-radius: 88px;
+}
+.login-equalsigninterfacemathequalsignmathematics {
+  top: 13px;
+  left: 15px;
+  width: 36px;
+  height: 33px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.login-equalsigninterfacemathequalsignmathematics1 {
+  top: 10.607142448425293px;
+  left: 1.9285714626312256px;
+  width: 32.14285659790039px;
+  height: 11.785714149475098px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.login-vector267 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 1px;
+  position: absolute;
+}
+.login-vector268 {
+  top: 11.785715103149414px;
+  left: -3.4059794984386826e-8px;
+  width: 32px;
+  height: 1px;
+  position: absolute;
+}

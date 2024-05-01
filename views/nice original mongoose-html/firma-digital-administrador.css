@@ -1,0 +1,1108 @@
+.firma-digital-administrador-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.firma-digital-administrador-firmadigital-administrador {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.firma-digital-administrador-rectangle2 {
+  top: 182px;
+  left: 535px;
+  width: 1454px;
+  height: 954px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.firma-digital-administrador-rectangle10 {
+  top: 233px;
+  left: 613px;
+  width: 1269px;
+  height: 755px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(128, 128, 128, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 64px;
+}
+.firma-digital-administrador-dashboardbg {
+  top: 182px;
+  left: -60px;
+  width: 486px;
+  height: 937px;
+  position: absolute;
+  border-radius: 33px;
+}
+.firma-digital-administrador-rectangle6 {
+  top: 221px;
+  left: 599px;
+  width: 1266px;
+  height: 752px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 64px;
+}
+.firma-digital-administrador-usercirclesinglecirclegeometrichumanpersonsingleus {
+  top: 248px;
+  left: 1103px;
+  width: 218px;
+  height: 199px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-usercirclesinglecirclegeometrichumanpersonsingleus1 {
+  top: 7.107143402099609px;
+  left: 7.785714149475098px;
+  width: 202.42855834960938px;
+  height: 184.78570556640625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector {
+  top: 35.53571319580078px;
+  left: 62.28571319580078px;
+  width: 78px;
+  height: 71px;
+  position: absolute;
+}
+.firma-digital-administrador-vector2 {
+  top: 127.9476089477539px;
+  left: 34.723976135253906px;
+  width: 133px;
+  height: 34px;
+  position: absolute;
+}
+.firma-digital-administrador-vector3 {
+  top: 0px;
+  left: 0px;
+  width: 202px;
+  height: 185px;
+  position: absolute;
+}
+.firma-digital-administrador-usercirclesinglecirclegeometrichumanpersonsingleus2 {
+  top: 248px;
+  left: 1103px;
+  width: 218px;
+  height: 199px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-usercirclesinglecirclegeometrichumanpersonsingleus3 {
+  top: 7.107143402099609px;
+  left: 7.785714149475098px;
+  width: 202.42855834960938px;
+  height: 184.78570556640625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector01 {
+  top: 35.53571319580078px;
+  left: 62.28571319580078px;
+  width: 78px;
+  height: 71px;
+  position: absolute;
+}
+.firma-digital-administrador-vector201 {
+  top: 127.9476089477539px;
+  left: 34.723976135253906px;
+  width: 133px;
+  height: 34px;
+  position: absolute;
+}
+.firma-digital-administrador-vector301 {
+  top: 0px;
+  left: 0px;
+  width: 202px;
+  height: 185px;
+  position: absolute;
+}
+.firma-digital-administrador-text {
+  top: 507px;
+  left: 1048px;
+  color: rgba(9, 56, 117, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-text02 {
+  top: 506px;
+  left: 1128px;
+  color: rgba(9, 56, 117, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-text03 {
+  top: 507px;
+  left: 1200px;
+  color: rgba(9, 56, 117, 1);
+  width: 231px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-text05 {
+  top: 460px;
+  left: 936px;
+  color: rgba(9, 56, 117, 1);
+  width: 586px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-image170640173paddedlogo3 {
+  top: 32px;
+  left: 69px;
+  width: 276px;
+  height: 120px;
+  position: absolute;
+  border-radius: 88px;
+}
+.firma-digital-administrador-text07 {
+  top: 131px;
+  color: rgba(9, 56, 117, 1);
+  width: 447px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-text09 {
+  top: 89px;
+  left: 1634px;
+  color: rgba(9, 56, 117, 1);
+  width: 128px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-usercirclesinglecirclegeometrichumanpersonsingleus4 {
+  top: 80px;
+  left: 1762px;
+  width: 44px;
+  height: 43px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-usercirclesinglecirclegeometrichumanpersonsingleus5 {
+  top: 1.5357143878936768px;
+  left: 1.5714285373687744px;
+  width: 40.857139587402344px;
+  height: 39.92856979370117px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector02 {
+  top: 7.6785712242126465px;
+  left: 12.571428298950195px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.firma-digital-administrador-vector202 {
+  top: 27.646970748901367px;
+  left: 7.008508682250977px;
+  width: 27px;
+  height: 7px;
+  position: absolute;
+}
+.firma-digital-administrador-vector302 {
+  top: 0px;
+  left: 0px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.firma-digital-administrador-usercirclesinglecirclegeometrichumanpersonsingleus6 {
+  top: 80px;
+  left: 1762px;
+  width: 44px;
+  height: 43px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-usercirclesinglecirclegeometrichumanpersonsingleus7 {
+  top: 1.5357143878936768px;
+  left: 1.5714285373687744px;
+  width: 40.857139587402344px;
+  height: 39.92856979370117px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector03 {
+  top: 7.6785712242126465px;
+  left: 12.571428298950195px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.firma-digital-administrador-vector203 {
+  top: 27.646970748901367px;
+  left: 7.008508682250977px;
+  width: 27px;
+  height: 7px;
+  position: absolute;
+}
+.firma-digital-administrador-vector303 {
+  top: 0px;
+  left: 0px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.firma-digital-administrador-text11 {
+  top: 95px;
+  left: 1625px;
+  color: rgba(77, 74, 74, 0.6299999952316284);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-login1arrowenterframeleftloginpointrectangle {
+  top: 1021px;
+  left: 56px;
+  width: 29px;
+  height: 29px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-login1arrowenterframeleftloginpointrectangle1 {
+  top: 1.0357142686843872px;
+  left: 1.0357142686843872px;
+  width: 26.928571701049805px;
+  height: 26.928571701049805px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector04 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 27px;
+  position: absolute;
+}
+.firma-digital-administrador-vector204 {
+  top: 13.464285850524902px;
+  left: 10.357142448425293px;
+  width: 17px;
+  height: 1px;
+  position: absolute;
+}
+.firma-digital-administrador-vector304 {
+  top: 9.321428298950195px;
+  left: 10.357142448425293px;
+  width: 4px;
+  height: 8px;
+  position: absolute;
+}
+.firma-digital-administrador-login1arrowenterframeleftloginpointrectangle2 {
+  top: 1021px;
+  left: 56px;
+  width: 29px;
+  height: 29px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-login1arrowenterframeleftloginpointrectangle3 {
+  top: 1.0357142686843872px;
+  left: 1.0357142686843872px;
+  width: 26.928571701049805px;
+  height: 26.928571701049805px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector05 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 27px;
+  position: absolute;
+}
+.firma-digital-administrador-vector205 {
+  top: 13.464285850524902px;
+  left: 10.357142448425293px;
+  width: 17px;
+  height: 1px;
+  position: absolute;
+}
+.firma-digital-administrador-vector305 {
+  top: 9.321428298950195px;
+  left: 10.357142448425293px;
+  width: 4px;
+  height: 8px;
+  position: absolute;
+}
+.firma-digital-administrador-text12 {
+  top: 1022px;
+  left: 38px;
+  color: rgba(255, 255, 255, 1);
+  width: 259px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-line12 {
+  top: 549px;
+  left: 601px;
+  width: 1263px;
+  height: 1px;
+  position: absolute;
+}
+.firma-digital-administrador-text14 {
+  top: 591px;
+  left: 1133px;
+  color: rgba(9, 56, 117, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-rectangle19 {
+  top: 869px;
+  left: 1111px;
+  width: 236px;
+  height: 62px;
+  position: absolute;
+  border-color: rgba(9, 56, 117, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 64px;
+}
+.firma-digital-administrador-text16 {
+  top: 887px;
+  left: 1146px;
+  color: rgba(255, 255, 255, 1);
+  width: 164px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-text18 {
+  top: 235px;
+  left: 94px;
+  color: rgba(255, 255, 255, 1);
+  width: 183px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-text20 {
+  top: 318px;
+  left: 75px;
+  color: rgba(255, 255, 255, 1);
+  width: 177px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-text22 {
+  top: 408px;
+  left: 105px;
+  color: rgba(255, 255, 255, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-text24 {
+  top: 492px;
+  left: 90px;
+  color: rgba(255, 255, 255, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-text26 {
+  top: 579px;
+  left: 98px;
+  color: rgba(255, 255, 255, 1);
+  width: 199px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-text28 {
+  top: 667px;
+  left: 99px;
+  color: rgba(255, 255, 255, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-text30 {
+  top: 753px;
+  left: 60px;
+  color: rgba(255, 255, 255, 1);
+  width: 199px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.firma-digital-administrador-browsercheckcheckmarkpasswindowappcodesuccesscheck {
+  top: 221px;
+  left: 41px;
+  width: 47px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-browsercheckcheckmarkpasswindowappcodesuccesscheck1 {
+  top: 1.7500001192092896px;
+  left: 1.6785714626312256px;
+  width: 43.642860412597656px;
+  height: 45.499996185302734px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector06 {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 45px;
+  position: absolute;
+}
+.firma-digital-administrador-vector206 {
+  top: 10.499999046325684px;
+  left: -3.476937848745365e-8px;
+  width: 44px;
+  height: 1px;
+  position: absolute;
+}
+.firma-digital-administrador-vector306 {
+  top: 20.999998092651367px;
+  left: 11.75px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+}
+.firma-digital-administrador-browsercheckcheckmarkpasswindowappcodesuccesscheck2 {
+  top: 221px;
+  left: 41px;
+  width: 47px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-browsercheckcheckmarkpasswindowappcodesuccesscheck3 {
+  top: 1.7500001192092896px;
+  left: 1.6785714626312256px;
+  width: 43.642860412597656px;
+  height: 45.499996185302734px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector07 {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 45px;
+  position: absolute;
+}
+.firma-digital-administrador-vector207 {
+  top: 10.499999046325684px;
+  left: -3.476937848745365e-8px;
+  width: 44px;
+  height: 1px;
+  position: absolute;
+}
+.firma-digital-administrador-vector307 {
+  top: 20.999998092651367px;
+  left: 11.75px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+}
+.firma-digital-administrador-onefingerhold {
+  top: 398px;
+  left: 43px;
+  width: 51px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-onefingerhold1 {
+  top: 1.9809999465942383px;
+  left: 3.9252147674560547px;
+  width: 45.253353118896484px;
+  height: 45.03730010986328px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-ellipse50 {
+  top: -8.940696716308594e-8px;
+  left: 26.03364372253418px;
+  width: 19px;
+  height: 18px;
+  position: absolute;
+}
+.firma-digital-administrador-vector225 {
+  top: 7.278285026550293px;
+  left: 35.63840103149414px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.firma-digital-administrador-vector107 {
+  top: 9.020549774169922px;
+  left: 2.232952356338501px;
+  width: 31px;
+  height: 36px;
+  position: absolute;
+}
+.firma-digital-administrador-ellipse302 {
+  top: 1.6189602613449097px;
+  left: 2.2990363390817947e-7px;
+  width: 18px;
+  height: 15px;
+  position: absolute;
+}
+.firma-digital-administrador-onefingerhold2 {
+  top: 398px;
+  left: 43px;
+  width: 51px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-onefingerhold3 {
+  top: 1.9809999465942383px;
+  left: 3.9252147674560547px;
+  width: 45.253353118896484px;
+  height: 45.03730010986328px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-ellipse501 {
+  top: -8.940696716308594e-8px;
+  left: 26.03364372253418px;
+  width: 19px;
+  height: 18px;
+  position: absolute;
+}
+.firma-digital-administrador-vector2251 {
+  top: 7.278285026550293px;
+  left: 35.63840103149414px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.firma-digital-administrador-vector1071 {
+  top: 9.020549774169922px;
+  left: 2.232952356338501px;
+  width: 31px;
+  height: 36px;
+  position: absolute;
+}
+.firma-digital-administrador-ellipse3021 {
+  top: 1.6189602613449097px;
+  left: 2.2990363390817947e-7px;
+  width: 18px;
+  height: 15px;
+  position: absolute;
+}
+.firma-digital-administrador-clipboardcheckcheckmarkedittaskeditionchecklistche {
+  top: 305px;
+  left: 40px;
+  width: 51px;
+  height: 54px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-clipboardcheckcheckmarkedittaskeditionchecklistche1 {
+  top: 1.928571343421936px;
+  left: 6.375px;
+  width: 38.25px;
+  height: 50.142852783203125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector08 {
+  top: 6.156963650028047e-8px;
+  left: 10.01785659790039px;
+  width: 18px;
+  height: 10px;
+  position: absolute;
+}
+.firma-digital-administrador-vector208 {
+  top: 3.857142686843872px;
+  left: 0px;
+  width: 38px;
+  height: 46px;
+  position: absolute;
+}
+.firma-digital-administrador-vector308 {
+  top: 21.214284896850586px;
+  left: 11.839285850524902px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.firma-digital-administrador-clipboardcheckcheckmarkedittaskeditionchecklistche2 {
+  top: 305px;
+  left: 40px;
+  width: 51px;
+  height: 54px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-clipboardcheckcheckmarkedittaskeditionchecklistche3 {
+  top: 1.928571343421936px;
+  left: 6.375px;
+  width: 38.25px;
+  height: 50.142852783203125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector09 {
+  top: 6.156963650028047e-8px;
+  left: 10.01785659790039px;
+  width: 18px;
+  height: 10px;
+  position: absolute;
+}
+.firma-digital-administrador-vector209 {
+  top: 3.857142686843872px;
+  left: 0px;
+  width: 38px;
+  height: 46px;
+  position: absolute;
+}
+.firma-digital-administrador-vector309 {
+  top: 21.214284896850586px;
+  left: 11.839285850524902px;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+}
+.firma-digital-administrador-newfileemptycommonfilecontent {
+  top: 487px;
+  left: 46px;
+  width: 42px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-newfileemptycommonfilecontent1 {
+  top: 1.5714285373687744px;
+  left: 4.5px;
+  width: 33px;
+  height: 40.857147216796875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector10 {
+  top: 0px;
+  left: 0px;
+  width: 33px;
+  height: 41px;
+  position: absolute;
+}
+.firma-digital-administrador-vector2529 {
+  top: 8.054681188696122e-8px;
+  left: 21px;
+  width: 12px;
+  height: 13px;
+  position: absolute;
+}
+.firma-digital-administrador-newfileemptycommonfilecontent2 {
+  top: 486px;
+  left: 46px;
+  width: 42px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-newfileemptycommonfilecontent3 {
+  top: 1.5714285373687744px;
+  left: 4.5px;
+  width: 33px;
+  height: 40.857147216796875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector11 {
+  top: 0px;
+  left: 0px;
+  width: 33px;
+  height: 41px;
+  position: absolute;
+}
+.firma-digital-administrador-vector25291 {
+  top: 8.054681188696122e-8px;
+  left: 21px;
+  width: 12px;
+  height: 13px;
+  position: absolute;
+}
+.firma-digital-administrador-usermultiplegroupclosegeometrichumanmultipleperson {
+  top: 744px;
+  left: 46px;
+  width: 46px;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-usermultiplegroupclosegeometrichumanmultipleperson1 {
+  top: 5.357142925262451px;
+  left: 1.6428570747375488px;
+  width: 42.71428680419922px;
+  height: 42.85750198364258px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector12 {
+  top: 2.5774303935577336e-7px;
+  left: 6.571428298950195px;
+  width: 16px;
+  height: 18px;
+  position: absolute;
+}
+.firma-digital-administrador-vector210 {
+  top: 24.982145309448242px;
+  left: 6.811958996877365e-8px;
+  width: 30px;
+  height: 18px;
+  position: absolute;
+}
+.firma-digital-administrador-vector310 {
+  top: 2.5774303935577336e-7px;
+  left: 27.928569793701172px;
+  width: 8px;
+  height: 18px;
+  position: absolute;
+}
+.firma-digital-administrador-vector4 {
+  top: 25.39107322692871px;
+  left: 31.21428680419922px;
+  width: 11px;
+  height: 17px;
+  position: absolute;
+}
+.firma-digital-administrador-hierarchy2nodeorganizationlinksstructurelinknodesn {
+  top: 572px;
+  left: 44px;
+  width: 44px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-hierarchy2nodeorganizationlinksstructurelinknodesn1 {
+  top: 3.5px;
+  left: 1.571428656578064px;
+  width: 40.85714340209961px;
+  height: 42.000003814697266px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector13 {
+  top: 21.000001907348633px;
+  left: 4.714285373687744px;
+  width: 31px;
+  height: 11px;
+  position: absolute;
+}
+.firma-digital-administrador-vector211 {
+  top: 10.500000953674316px;
+  left: 20.428571701049805px;
+  width: 0px;
+  height: 21px;
+  position: absolute;
+}
+.firma-digital-administrador-vector2521 {
+  top: 2.5398878733540187e-7px;
+  left: 15.714285850524902px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.firma-digital-administrador-vector2522 {
+  top: 31.500001907348633px;
+  left: 15.714285850524902px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.firma-digital-administrador-vector2523 {
+  top: 31.500001907348633px;
+  left: -1.038823782550935e-7px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.firma-digital-administrador-vector2524 {
+  top: 31.500001907348633px;
+  left: 31.428571701049805px;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+}
+.firma-digital-administrador-layers2designlayerlayerspilestackalign {
+  top: 661px;
+  left: 43px;
+  width: 43px;
+  height: 42px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.firma-digital-administrador-layers2designlayerlayerspilestackalign1 {
+  top: 4.5px;
+  left: 1.5357143878936768px;
+  width: 39.92856979370117px;
+  height: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.firma-digital-administrador-vector14 {
+  top: 4.614552651105441e-8px;
+  left: 15.35714340209961px;
+  width: 25px;
+  height: 18px;
+  position: absolute;
+}
+.firma-digital-administrador-vector212 {
+  top: 7.5px;
+  left: 7.678571701049805px;
+  width: 25px;
+  height: 18px;
+  position: absolute;
+}
+.firma-digital-administrador-vector311 {
+  top: 13.5px;
+  left: -5.108969602929392e-8px;
+  width: 26px;
+  height: 19px;
+  position: absolute;
+}
+.firma-digital-administrador-image3 {
+  top: 638px;
+  left: 1087px;
+  width: 284px;
+  height: 145px;
+  position: absolute;
+}
